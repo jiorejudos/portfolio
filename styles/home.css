@@ -1,0 +1,34 @@
+.header{width:100%;
+   }
+
+.header h1 {
+  position: relative;
+  padding: 14px 16px;
+  text-align: center;
+  display: inline;
+  color: #fdfdfd;
+}
+
+.logo {
+  padding-left: 20px;
+  float: left;
+  display: inline;
+}
+
+.header img {
+  width: 20%;
+}
+
+.topnav {
+    background-color: #3F3250;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
