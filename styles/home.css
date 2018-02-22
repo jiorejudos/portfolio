@@ -1,27 +1,43 @@
-.header{width:100%;
+.header{
+  width:100%;
+  height: 100px;
    }
 
 .header h1 {
   position: relative;
-  padding: 14px 16px;
-  text-align: center;
   display: inline;
   color: #fdfdfd;
 }
 
+@media only screen and (max-width: 980px) {
+#logo {
+min-height: 100px;
+}
+}
+@media only screen and (min-width: 981px) {
+#logo {
+min-height: 120px;
+}
+}
+
+
 .logo {
+  position: relative;
   padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
   float: left;
   display: inline;
 }
 
-.header img {
-  width: 20%;
-}
 
 .topnav {
     background-color: #3F3250;
     overflow: hidden;
+}
+
+.topnav h1 {
+  font-family: "Titillium Web", arial, sans-serif;
 }
 
 .topnav a {
@@ -31,4 +47,6 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Raleway", arial, sans-serif;
+
 }
