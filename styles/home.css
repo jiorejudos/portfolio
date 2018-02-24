@@ -1,43 +1,31 @@
-.header{
-  width:100%;
-  height: 100px;
-   }
-
-.header h1 {
+.topnav h1 {
   position: relative;
   display: inline;
+  padding-left: 178px;
+  font-size: 48px;
   color: #fdfdfd;
+  font-family: "Titillium Web", arial, sans-serif;
 }
-
-@media only screen and (max-width: 980px) {
-#logo {
-min-height: 100px;
-}
-}
-@media only screen and (min-width: 981px) {
-#logo {
-min-height: 120px;
-}
-}
-
 
 .logo {
-  position: relative;
-  padding-left: 20px;
-  margin-left: 10px;
-  margin-right: 20px;
+  position: absolute;
+  padding-left: 56px;
   float: left;
-  display: inline;
 }
 
+.workheader {
+  position: absolute;
+  padding-left: 56px;
+  float: left;
+}
 
 .topnav {
     background-color: #3F3250;
     overflow: hidden;
-}
-
-.topnav h1 {
-  font-family: "Titillium Web", arial, sans-serif;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100px;
 }
 
 .topnav a {
@@ -49,4 +37,98 @@ min-height: 120px;
     font-size: 17px;
     font-family: "Raleway", arial, sans-serif;
 
+}
+
+.main h2 {
+  text-align: left;
+  font-size: 48px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin-left: 178px;
+}
+
+.main p {
+  text-align: left;
+  font-size: 36px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+  color: #458355;
+  margin-left: 178px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+      background-color: #f1f1f1;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.content {
+    padding: 10px;
+    font-family: "Raleway", arial, sans-serif;
+    padding-top: 200px;
+}
+
+footer {
+    background-color: #3F3250;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+}
+
+footer p:first-child {
+    font-family: "Raleway", arial, sans-serif;
+    color: #fdfdfd;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    font-family: "Raleway", arial, sans-serif;
+    color: #fdfdfd;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    display: inline;
+    vertical-align: middle;
+    font-size: 17px;
 }
