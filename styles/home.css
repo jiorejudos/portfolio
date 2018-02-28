@@ -1,5 +1,6 @@
 .topnav h1 {
   position: relative;
+  vertical-align: middle;
   display: inline;
   padding-left: 178px;
   font-size: 48px;
@@ -14,9 +15,11 @@
 }
 
 .workheader {
-  position: absolute;
+  position: relative;
   padding-left: 56px;
+  padding-bottom: 200px
   float: left;
+  background-color: #f1f1f1
 }
 
 .topnav {
@@ -30,6 +33,7 @@
 
 .topnav a {
     float: right;
+    vertical-align: middle;
     color: #fdfdfd;
     text-align: center;
     padding: 14px 16px;
@@ -72,9 +76,9 @@
 }
 
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 38px;
 }
 
 .column img {
@@ -82,24 +86,11 @@
   vertical-align: middle;
 }
 
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 .content {
     padding: 10px;
     font-family: "Raleway", arial, sans-serif;
-    padding-top: 200px;
+    padding-top: 20px
 }
 
 footer {
@@ -114,7 +105,7 @@ footer p:first-child {
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
     text-align: left;
-    padding: 14px 16px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
     font-size: 17px;
     display: inline;
