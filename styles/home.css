@@ -1,46 +1,68 @@
+body {
+  margin: 0;
+}
 .topnav h1 {
   position: relative;
   vertical-align: middle;
   display: inline;
   padding-left: 178px;
   font-size: 48px;
+  line-height: 100px;
+  overflow: hidden;
   color: #fdfdfd;
   font-family: "Titillium Web", arial, sans-serif;
 }
 
 .logo {
-  position: absolute;
+  position: fixed;
   padding-left: 56px;
   float: left;
+  top: 0;
+  z-index: 2;
 }
 
 .workheader {
-  position: relative;
-  padding-left: 56px;
-  padding-bottom: 200px
-  float: left;
-  background-color: #f1f1f1
+    position: relative;
+    border-top: 1px solid #3F3250;
+    margin: 0 56px;
 }
 
 .topnav {
     background-color: #3F3250;
     overflow: hidden;
     right: 0;
-    bottom: 0;
+    top: 0;
     left: 0;
     height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-.topnav a {
+.topnav .nav {
+  height: 100px;
+  vertical-align: middle;
+  display:inline-block;
+  float:right;
+  padding-right: 60px;
+}
+
+.topnav .nav a {
     float: right;
     vertical-align: middle;
     color: #fdfdfd;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: "Raleway", arial, sans-serif;
+    height: 100px;
+    line-height: 100px;
+    white-space: nowrap;
+}
 
+.main {
+  padding-top: 140px;
 }
 
 .main h2 {
@@ -48,37 +70,39 @@
   font-size: 48px;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-left: 178px;
+  padding: 0 0 0 178px;
+  margin-bottom: 10px;
+  margin-top: 75px;
 }
 
 .main p {
   text-align: left;
-  font-size: 36px;
+  font-size: 26px;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
-  color: #458355;
-  margin-left: 178px;
+  padding: 0 0 0 178px;
+  margin-top: 0;
+  margin-bottom: 125px;
 }
 
 * {
     box-sizing: border-box;
-}
-
-.gallery {
-      background-color: #f1f1f1;
 
 }
+
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+
 }
 
 .column {
   flex: 33%;
   max-width: 33%;
   padding: 0 38px;
+
 }
 
 .column img {
@@ -88,38 +112,44 @@
 
 
 .content {
-    padding: 10px;
+    padding: 10px 0 0 0;
     font-family: "Raleway", arial, sans-serif;
-    padding-top: 20px
+}
+
+.content p {
+    color: #458355;
 }
 
 footer {
     background-color: #3F3250;
-    right: 0;
-    bottom: 0;
-    left: 0;
     height: 100px;
+	  overflow: hidden;
+    padding: 40px 0 0 0;
+    margin-top: 75px;
 }
 
 footer p:first-child {
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
     text-align: left;
-    padding: 20px 20px 20px 20px;
+    padding-left: 20px;
     text-decoration: none;
     font-size: 17px;
     display: inline;
     vertical-align: middle;
     font-weight: bold;
+    padding-left: 60px;
 }
 
 footer p:nth-child(2){
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
-    padding: 14px 16px;
+    padding-right: 20px;
     text-decoration: none;
     float: right;
     display: inline;
     vertical-align: middle;
     font-size: 17px;
+    margin: 0;
+    padding-right: 60px;
 }
