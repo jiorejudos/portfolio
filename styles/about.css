@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+
 .topnav h1 {
   position: relative;
   vertical-align: middle;
@@ -58,28 +59,30 @@ body {
   z-index: 2;
 }
 
-.aboutheader {
+.aboutheader{
   position: relative;
   border-top: 1px solid #3F3250;
   margin: 0 56px;
 }
 
 
+
 .main p {
   text-align: left;
-  clear: left;
+  float: left;
   font-size: 24px;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   padding: 0 513px 0 178px;
   margin-top: 0;
   margin-bottom: 125px;
+  width: 75%
 }
 
 .headshot {
-  float: right;
+  clear: right;
   height: 498px;
-  width: 413px;
+  width: 25%;
 }
 
 .clearfix::after {
