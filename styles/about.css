@@ -58,15 +58,14 @@ body {
   z-index: 2;
 }
 
-.workheader {
-    border-top: 1px solid #3F3250;
-    margin: 0 56px;
+.aboutheader {
+  position: relative;
+  border-top: 1px solid #3F3250;
+  margin: 0 56px;
 }
 
 
 .main p {
-  display: inline-block;
-  column-width: 713px;
   text-align: left;
   clear: left;
   font-size: 24px;
@@ -77,12 +76,16 @@ body {
   margin-bottom: 125px;
 }
 
-.main img {
+.headshot {
   float: right;
-  clear: right;
-  display: inline-block;
   height: 498px;
   width: 413px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 footer {
