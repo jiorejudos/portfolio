@@ -30,9 +30,9 @@ body {
 }
 
 .workheader {
-    position: relative;
-    border-top: 1px solid #3F3250;
-    margin: 0 56px;
+  position: relative;
+  border-top: 1px solid #3F3250;
+  margin: 0 56px;
 }
 
 .topnav {

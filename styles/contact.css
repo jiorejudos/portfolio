@@ -1,8 +1,6 @@
 body {
   margin: 0;
 }
-
-
 .topnav h1 {
   position: relative;
   vertical-align: middle;
@@ -11,11 +9,33 @@ body {
   font-size: 48px;
   line-height: 100px;
   overflow: hidden;
-  text-decoration: none;
   color: #fdfdfd;
   font-family: "Titillium Web", arial, sans-serif;
 }
 
+.topnav .nav a:hover {
+    color: #FFBD66;
+}
+.topnav .nav a.active {
+    color: white;
+    text-decoration-color: #458355;
+}
+
+.logo {
+  position: fixed;
+  padding-left: 56px;
+  float: left;
+  top: 0;
+  z-index: 2;
+}
+
+.contactheader {
+  position: relative;
+  border-top: 1px solid #3F3250;
+  margin: 75px 56px;
+  padding-top: 100px
+
+}
 
 .topnav {
     background-color: #3F3250;
@@ -51,45 +71,42 @@ body {
     white-space: nowrap;
 }
 
-.logo {
-  position: fixed;
-  padding-left: 56px;
-  float: left;
-  top: 0;
-  z-index: 2;
-}
-
-.aboutheader{
-  position: relative;
-  border-top: 1px solid #3F3250;
-  margin: 75px 56px;
-  padding-top: 100px
-}
-
-
-
 .main p {
   text-align: left;
-  float: left;
-  font-size: 24px;
+  font-size: 26px;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
-  padding: 0 513px 0 178px;
+  padding: 0 0 0 178px;
   margin-top: 0;
   margin-bottom: 125px;
-  width: 75%
 }
 
-.headshot {
-  clear: right;
-  height: 498px;
-  width: 25%;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+input[type=submit] {
+    background-color: #458355;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: "Raleway", arial, sans-serif;
 }
 
 footer {
