@@ -82,15 +82,17 @@ body {
 }
 
 input[type=text], select, textarea {
+    background-color: #D3D3D3;
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #979797;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical
 }
+
 
 input[type=submit] {
     background-color: #458355;
@@ -101,11 +103,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
+table {
+    width: 100%;
+    border-spacing: 15px 0;
+}
+
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    margin: 0 0 0 178px;
     font-family: "Raleway", arial, sans-serif;
 }
 
