@@ -32,8 +32,8 @@ body {
 .contactheader {
   position: relative;
   border-top: 1px solid #3F3250;
-  margin: 75px 56px;
-  padding-top: 100px
+  margin: 180px 56px -70px;
+  padding-top: 0;
 
 }
 
@@ -78,7 +78,7 @@ body {
   font-weight: normal;
   padding: 0 0 0 178px;
   margin-top: 0;
-  margin-bottom: 125px;
+  margin-bottom: 50px;
 }
 
 input[type=text], select, textarea {
@@ -103,6 +103,21 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.nameinput, .emailinput, .companyinput, .timelineinput, .messageinput{
+  position: relative;
+}
+
+.nameinput i, .emailinput i, .companyinput i, .timelineinput i, .messageinput i{
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #458355;
+}
+
+
+
+
 table {
     width: 100%;
     border-spacing: 15px 0;
@@ -113,6 +128,7 @@ table {
     border-radius: 5px;
     margin: 0 0 0 178px;
     font-family: "Raleway", arial, sans-serif;
+    padding-bottom: 50px;
 }
 
 footer {

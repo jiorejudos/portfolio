@@ -3,6 +3,7 @@
     <head>
       <title>Jeannine Orejudos</title>
       <link rel="stylesheet" type="text/css" href= "http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type= "text/css" href = "styles/contact.css">
     </head>
 
@@ -35,23 +36,36 @@
               <td><label for="lname">Email</label></td>
             </tr>
             <tr>
-              <td><input type="text" id="fname" name="firstname" placeholder="Your name..">
-              </td>
-              <td><input type="text" id="lname" name="lastname" placeholder="Your e-mail.."></td>
+
+              <td><div class="nameinput"><input type="text" id="fname" name="firstname" >
+                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+              </div></td>
+
+              <td><div class="emailinput"><input type="text" id="email" name="email">
+                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+              </div></td>
             </tr>
             <tr>
             <td><label for="fname">Company</label></td>
             <td><label for="lname">Timeline</label></td>
             </tr>
             <tr>
-              <td><input type="text" id="fname" name="firstname" placeholder="Your Company/Organization.."></td>
-              <td><input type="text" id="lname" name="lastname" placeholder="When do you want this done by?"></td>
+              <td><div class="companyinput"><input type="text" id="company" name="company" >
+                <i class="fa fa-building fa-lg fa-fw" aria-hidden="true"></i>
+              </div></td>
+
+              <td><div class="timelineinput"><input type="text" id="timeline" name="timeline" >
+                <i class="fa fa-calendar fa-lg fa-fw" aria-hidden="true"></i>
+              </div></td>
             </tr>
             <tr>
-              <td><label for="subject">Message</label></td>
+              <td><label for="subject">Tell me about your project:</label>
+              </td>
             </tr>
             <tr>
-              <td colspan="2"><textarea id="subject" name="subject" placeholder="Tell me about your project.." style="height:200px"></textarea></td>
+              <td colspan="2"><div class="messageinput"><textarea id="subject" name="subject" style="height:200px"></textarea>
+                <i class="fa fa-pencil fa-lg fa-fw" aria-hidden="true"></i>
+              </div></td>
             </tr>
             <tr>
               <td><input type="submit" value="Submit"></td>
@@ -63,10 +77,9 @@
      </div>
 
 
-      <footer>
-        <p>Jeannine Orejudos</p>
-        <p>jiorejudos@gmail.com</p>
-      </footer>
+     <footer>
+       <p>jiorejudos@gmail.com</p>
+     </footer>
 
     </body>
   </html>
