@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+
 .topnav h1 {
   position: relative;
   vertical-align: middle;
@@ -58,35 +59,55 @@ body {
   z-index: 2;
 }
 
-.aboutheader {
+.aboutheader{
   position: relative;
   border-top: 1px solid #3F3250;
-  margin: 0 56px;
+  margin: 180px 56px -70px;
+  padding-top: 0;
 }
 
 
-.main p {
+.aboutBio {
+  display: block;
+  clear: both;
+  margin:0 56px;
+}
+.aboutBio:after, .aboutBio:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aboutBio-text {
+  display: inline-block;
+  width: calc(75% - 177px);
+  float: left;
+  margin-left: 137px;
+  margin-right: 40px;
+}
+.aboutBio-text p {
   text-align: left;
-  clear: left;
-  font-size: 24px;
+  float: left;
+  font-size: 21px;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
-  padding: 0 513px 0 178px;
   margin-top: 0;
-  margin-bottom: 125px;
+  margin-bottom: 20px;
 }
 
 .headshot {
-  float: right;
+  display: inline-block;
+  float: left;
   height: 498px;
-  width: 413px;
+  width: 25%;
+}
+.headshot img {
+  width: 100%;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
+
+
 
 footer {
     background-color: #3F3250;
