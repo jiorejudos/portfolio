@@ -124,11 +124,17 @@ table {
 }
 
 
-.container {
+.contactInfo {
     border-radius: 5px;
-    margin: 0 0 0 178px;
+    margin: 0 56px;
     font-family: "Raleway", arial, sans-serif;
     padding-bottom: 50px;
+}
+.contactInfo p {
+  margin-left: 137px;
+}
+.contactInfo form {
+  margin-left: 137px;
 }
 
 footer {
