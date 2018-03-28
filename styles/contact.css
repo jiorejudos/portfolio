@@ -90,9 +90,11 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
+    text-indent: 20px;
+    font: "Open Sans", arial,sans-serif;
+    font-size: 14px;
 }
-
 
 input[type=submit] {
     background-color: #458355;
@@ -155,5 +157,5 @@ footer p {
     font-size: 17px;
     display: inline;
     vertical-align: middle;
-    
+
 }
