@@ -99,13 +99,13 @@ hr {
   box-shadow: 10px 10px 8px #888888;
 }
 
-.projectImage{
+.aboutProject-image{
   display: inline-block;
   float: left;
   height: 498px;
   width: 25%;
 }
-.projectImage img {
+.aboutProject-image img {
   width: 100%;
 }
 
