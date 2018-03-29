@@ -130,7 +130,11 @@ body {
   clear: both;
 }
 
-.userSurvey {
+.userSurvey-box {
+  background-color: #F6E9D4;
+}
+
+.userSurvey{
   margin-left: 137px;
   margin-right: 40px;
   width: calc(75% - 177px);
