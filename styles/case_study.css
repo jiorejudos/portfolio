@@ -70,12 +70,24 @@ body {
 .aboutProject {
   display: block;
   clear: both;
-  margin:0 56px;
+  margin:0 56px 20px 0;
 }
+
 .aboutProject:after, .aboutProject:before {
   content: "";
   display: table;
   clear: both;
+}
+
+.aboutProject-image{
+  display: inline-block;
+  float: right;
+  height: 845px;
+  width: 1149px;
+}
+
+.aboutProject-image img {
+  width: 100%;
 }
 
 .aboutProject-text {
@@ -85,6 +97,7 @@ body {
   margin-left: 137px;
   margin-right: 40px;
 }
+
 .aboutProject-text p {
   text-align: left;
   float: left;
@@ -95,21 +108,51 @@ body {
   margin-bottom: 20px;
 }
 
-hr {
-  box-shadow: 10px 10px 8px #888888;
-}
-
-.aboutProject-image{
-  display: inline-block;
+.aboutProject-text h2 {
+  text-align: left;
   float: left;
-  height: 498px;
-  width: 25%;
-}
-.aboutProject-image img {
-  width: 100%;
+  font-size: 48px;
+  color: #458355, ForestGreen;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
 }
 
+.aboutProject-line hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 3px 1px #808080;
 
+}
+
+.aboutProject-line:before, .aboutProject-line:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.userSurvey {
+  margin-left: 137px;
+  margin-right: 40px;
+  width: calc(75% - 177px);
+}
+
+.userSurvey h2 {
+  text-align: left;
+  float: left;
+  font-size: 48px;
+  color: #3F3250, purple;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+}
+
+.userSurvey-text h3 {
+  text-align: left;
+  float: left;
+  font-size: 72px;
+  color: #458355, ForestGreen;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+}
 
 
 footer {
