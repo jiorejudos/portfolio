@@ -69,8 +69,7 @@ body {
 
 .aboutProject {
   display: block;
-  clear: both;
-  margin:0 56px 20px 0;
+  margin:0 56px 20px;
 }
 
 .aboutProject:after, .aboutProject:before {
@@ -80,22 +79,20 @@ body {
 }
 
 .aboutProject-image{
-  display: inline-block;
-  float: right;
-  height: 845px;
-  width: 1149px;
+  margin-left: 137px;
 }
 
 .aboutProject-image img {
   width: 100%;
+  height: auto;
 }
 
 .aboutProject-text {
-  display: inline-block;
-  width: calc(75% - 177px);
+  display: block;
   float: left;
   margin-left: 137px;
-  margin-right: 40px;
+  margin-bottom: 20px;
+  padding: 0 10%;
 }
 
 .aboutProject-text p {
@@ -112,9 +109,10 @@ body {
   text-align: left;
   float: left;
   font-size: 48px;
-  color: #458355, ForestGreen;
+  color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .aboutProject-line hr {
@@ -132,8 +130,16 @@ body {
 
 .userSurvey-box {
   background-color: #F6E9D4;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 60px 56px;
+  display: block;
 }
-
+.userSurvey-box:after, .userSurvey-box:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
 .userSurvey{
   margin-left: 137px;
   margin-right: 40px;
@@ -142,20 +148,35 @@ body {
 
 .userSurvey h2 {
   text-align: left;
-  float: left;
   font-size: 48px;
   color: #3F3250, purple;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
+  display: block;
+  margin: 0;
+}
+.userSurvey-text-block {
+  display: block;
+  clear: both;
 }
 
-.userSurvey-text h3 {
-  text-align: left;
+.userSurvey-text-block h3 {
+  text-align: right;
   float: left;
+  display: inline-block;
   font-size: 72px;
-  color: #458355, ForestGreen;
+  color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
+  margin: 0;
+  width: 25%;
+  margin-right: 5%;
+}
+.userSurvey-text-block p {
+  text-align: left;
+  float: left;
+  display: inline-block;
+  width: 70%;
 }
 
 
