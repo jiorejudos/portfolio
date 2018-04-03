@@ -140,16 +140,17 @@ body {
   display: table;
   clear: both;
 }
+
 .userSurvey{
-  margin-left: 137px;
+  margin-left: 120px;
   margin-right: 40px;
-  width: calc(75% - 177px);
+
 }
 
-.userSurvey h2 {
+.userSurvey-text h2 {
   text-align: left;
   font-size: 48px;
-  color: #3F3250, purple;
+  color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   display: block;
@@ -157,6 +158,8 @@ body {
 }
 .userSurvey-text-block {
   display: block;
+  font-family: "Raleway", arial, sans-serif;
+  font-size: 36;
   clear: both;
 }
 
@@ -169,14 +172,64 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin: 0;
-  width: 25%;
-  margin-right: 5%;
+  width: 30%;
+  margin-right: 5%
 }
+
 .userSurvey-text-block p {
   text-align: left;
   float: left;
   display: inline-block;
-  width: 70%;
+  width: 65%;
+}
+
+.userPersonas {
+  display: block;
+  margin:0 56px 20px;
+}
+
+.userPersonas h2 {
+  text-align: left;
+  float: left;
+  font-size: 48px;
+  color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.userPersonas-text {
+  display: block;
+  float: left;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.userPersonas-text p {
+  text-align: left;
+  float: left;
+  font-size: 21px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.userPersonas-text h3 {
+  text-align: left;
+  float: left;
+  font-size: 21px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #3F3250;
+}
+
+.userPersonas:after, .userSurvey-box:before {
+  content: " ";
+  display: table;
+  clear: both;
 }
 
 

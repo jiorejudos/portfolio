@@ -82,7 +82,7 @@ body {
 }
 
 input[type=text], select, textarea {
-    background-color: #D3D3D3;
+    background-color: white;
     width: 100%;
     padding: 12px;
     border: 1px solid #979797;
@@ -94,6 +94,7 @@ input[type=text], select, textarea {
     text-indent: 20px;
     font: "Open Sans", arial,sans-serif;
     font-size: 14px;
+
 }
 
 input[type=submit] {
