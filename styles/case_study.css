@@ -83,16 +83,16 @@ body {
 }
 
 .aboutProject-image img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
 .aboutProject-text {
   display: block;
-  float: left;
+  float:left;
   margin-left: 137px;
   margin-bottom: 20px;
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .aboutProject-text p {
@@ -226,9 +226,100 @@ body {
   color: #3F3250;
 }
 
-.userPersonas:after, .userSurvey-box:before {
+.userPersonas:after, .userSurvey:before {
   content: " ";
   display: table;
+  clear: both;
+}
+
+.userPersonas-img {
+  display: block;
+  float: left;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+
+.userPersonas-text h4 {
+  text-align: left;
+  float: left;
+  font-size: 40px;
+  color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.userPersonas-text h5 {
+  text-align: left;
+  float: left;
+  font-size: 30px;
+  color: black;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+
+.competitiveAnalysis-box {
+  background-color: #F6E9D4;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 60px 56px;
+  display: block;
+}
+.competitiveAnalysis-box:after, .companyinput-box:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.competitiveAnalysis{
+  margin-left: 120px;
+  margin-right: 40px;
+
+}
+
+.competitiveAnalysis-text h2 {
+  text-align: left;
+  font-size: 48px;
+  color: #3F3250;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+}
+.competitiveAnalysis-text-block {
+  display: block;
+  font-family: "Raleway", arial, sans-serif;
+  font-size: 36;
+  clear: both;
+}
+
+.competitiveAnalysis-text-block p {
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+
+.competitiveAnalysis-img1 {
+  display: block;
+  float: left;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  width: 33%;
+}
+
+.competitiveAnalysis-img2 {
+  display: block;
+  float: inherit;
+  width: 33%;
+}
+
+.competitiveAnalysis-img3 {
+  display: block;
+  float: right;
+  width: 33%;
   clear: both;
 }
 
@@ -239,6 +330,9 @@ footer {
 	  overflow: hidden;
     padding: 40px 0 0 0;
     margin-top: 75px;
+    position: sticky;
+    width:100%;
+    clear: both;
 }
 
 footer p:first-child {
