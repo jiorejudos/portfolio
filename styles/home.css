@@ -1,72 +1,7 @@
-body {
-  margin: 0;
-}
-.topnav h1 {
-  position: relative;
-  vertical-align: middle;
-  display: inline;
-  padding-left: 178px;
-  font-size: 48px;
-  line-height: 100px;
-  overflow: hidden;
-  color: #fdfdfd;
-  font-family: "Titillium Web", arial, sans-serif;
-}
-
-.topnav .nav a:hover {
-    color: #FFBD66;
-}
-.topnav .nav a.active {
-    color: white;
-    text-decoration-color: #458355;
-}
-
-.logo {
-  position: fixed;
-  padding-left: 56px;
-  float: left;
-  top: 0;
-  z-index: 2;
-}
-
 .workheader {
   position: relative;
   border-top: 1px solid #3F3250;
   margin: 0 56px;
-}
-
-.topnav {
-    background-color: #3F3250;
-    overflow: hidden;
-    right: 0;
-    top: 0;
-    left: 0;
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.topnav .nav {
-  height: 100px;
-  vertical-align: middle;
-  display:inline-block;
-  float:right;
-  padding-right: 60px;
-}
-
-.topnav .nav a {
-    float: right;
-    vertical-align: middle;
-    color: #fdfdfd;
-    text-align: center;
-    padding: 0 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: "Raleway", arial, sans-serif;
-    height: 100px;
-    line-height: 100px;
-    white-space: nowrap;
 }
 
 .main {
@@ -93,11 +28,6 @@ body {
   margin-bottom: 125px;
 }
 
-* {
-    box-sizing: border-box;
-
-}
-
 
 .row {
   display: flex;
@@ -119,22 +49,13 @@ body {
   width:100%
 }
 
-
 .content{
     padding: 10px 0 0 0;
     font-family: "Raleway", arial, sans-serif;
 }
 
-.content p {
-    color: #458355;
-}
-
-footer {
-    background-color: #3F3250;
-    height: 100px;
-	  overflow: hidden;
-    padding: 40px 0 0 0;
-    margin-top: 75px;
+.content h3 {
+    color: #3F3250;
 }
 
 footer p:first-child {
