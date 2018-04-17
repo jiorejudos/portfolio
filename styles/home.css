@@ -4,8 +4,15 @@
   margin: 0 56px;
 }
 
-.main {
-  padding-top: 140px;
+.main-container {
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.main-text {
+position: absolute;
+top: 25%;
 }
 
 .main h2 {

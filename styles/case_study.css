@@ -61,13 +61,7 @@ h2 {
 
 }
 
-.aboutProject-line::before, .aboutProject-line::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.userSurvey-box {
+.userSurvey-box, .competitiveAnalysis-box, .styleChoices-box, .userTesting-box {
   background-color: #F6E9D4;
   border-top: 2px solid #808080;
   border-bottom: 2px solid #808080;
@@ -75,7 +69,7 @@ h2 {
   display: block;
 }
 
-.userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-box::after,
+.aboutProject-line::before, .aboutProject-line::after, .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-box::after,
 .competitiveAnalysis-box::before, .userFlows::after, .userFlows::before,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before {
   content: " ";
@@ -200,14 +194,6 @@ h2 {
   font-weight: 200;
   margin-left: 60px;
   margin-top: -40px;
-}
-
-.competitiveAnalysis-box {
-  background-color: #F6E9D4;
-  border-top: 2px solid #808080;
-  border-bottom: 2px solid #808080;
-  padding: 60px 56px;
-  display: block;
 }
 
 .competitiveAnalysis{
@@ -344,14 +330,6 @@ h2 {
   clear: both;
 }
 
-.styleChoices-box {
-  background-color: #F6E9D4;
-  border-top: 2px solid #808080;
-  border-bottom: 2px solid #808080;
-  padding: 60px 56px;
-  display: block;
-}
-
 .styleChoices{
   margin-left: 120px;
   margin-right: 40px;
@@ -376,37 +354,22 @@ h2 {
 }
 
 
-.wireframes {
+.wireframes, .design {
   display: block;
   margin:0 56px 20px;
 }
 
 .wireframes-text {
-  display: block;
   float: left;
   margin-left: 120px;
   margin-bottom: 20px;
-  clear: both;
 }
 
 .wireframes-text p {
   clear: both;
 }
 
-
-.wireframes-img {
-  display: block;
-  float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  margin-top: 8px;
-  vertical-align: middle;
-  width:100%;
-  clear: both;
-}
-
-
-.design-text h2 {
+.design-text h2, .wireframes-text h2 {
   clear: both;
 }
 
@@ -418,11 +381,15 @@ h2 {
   clear: both;
 }
 
-
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+}
+
+.gallery img {
+  max-width: 75%;
+  float: left;
 }
 
 .gallery-column {
@@ -436,15 +403,7 @@ h2 {
   width:100%
 }
 
-.userTesting-box {
-  background-color: #F6E9D4;
-  border-top: 2px solid #808080;
-  border-bottom: 2px solid #808080;
-  padding: 60px 56px;
-  display: block;
-}
-
-.userTesting{
+.userTesting {
   margin-left: 120px;
   margin-right: 40px;
   display: flex;
@@ -471,6 +430,15 @@ h2 {
   clear: both;
 }
 
+input[type=button] {
+    background-color: #458355;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 .conclusion {
   display: block;
