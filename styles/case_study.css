@@ -75,7 +75,9 @@ h2 {
   display: block;
 }
 
-.userSurvey-box::after, .userSurvey-box::before {
+.userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-box::after,
+.competitiveAnalysis-box::before, .userFlows::after, .userFlows::before,
+.wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before {
   content: " ";
   display: table;
   clear: both;
@@ -200,19 +202,12 @@ h2 {
   margin-top: -40px;
 }
 
-
 .competitiveAnalysis-box {
   background-color: #F6E9D4;
   border-top: 2px solid #808080;
   border-bottom: 2px solid #808080;
   padding: 60px 56px;
   display: block;
-}
-
-.competitiveAnalysis-box::after, .companyinput-box::before {
-  content: " ";
-  display: table;
-  clear: both;
 }
 
 .competitiveAnalysis{
@@ -270,22 +265,15 @@ h2 {
   padding-bottom: 20px
 }
 
+.userFlows-text p {
+  clear: both;
+}
 
 .userFlows {
   display: block;
   margin:0 56px 20px;
 }
 
-.userFlows h2 {
-  text-align: left;
-  float: left;
-  font-size: 48px;
-  color: #458355;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-  clear: both;
-}
 
 .userFlows-text {
   display: block;
@@ -295,18 +283,7 @@ h2 {
   clear: both;
 }
 
-.userFlows-text p {
-  text-align: left;
-  float: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 20px;
-  clear: both;
-}
-
-.userFlows h6 {
+.userFlows h3 {
   text-align: left;
   float: left;
   font-size: 21px;
@@ -317,7 +294,7 @@ h2 {
   clear: both;
 }
 
-.userFlows h7 {
+.userFlows h4 {
   text-align: left;
   float: right;
   padding-right: 325px;
@@ -346,25 +323,7 @@ h2 {
   padding-right: 150px;
 }
 
-.siteMap-text h2 {
-  text-align: left;
-  float: left;
-  font-size: 48px;
-  color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-  clear: both;
-}
-
 .siteMap-text p {
-  text-align: left;
-  float: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 20px;
   clear: both;
 }
 
@@ -385,12 +344,6 @@ h2 {
   clear: both;
 }
 
-.userFlows::after, .userFlows::before {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
 .styleChoices-box {
   background-color: #F6E9D4;
   border-top: 2px solid #808080;
@@ -408,28 +361,8 @@ h2 {
 }
 
 .styleChoices-text h2 {
-  text-align: left;
-  font-size: 48px;
   color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  display: block;
-  clear: both;
-  margin: 0;
-  padding-bottom: 20px;
 }
-
-.styleChoices-text p {
-  text-align: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  display: block;
-  clear: both;
-  margin: 0;
-  padding-bottom: 20px;
-}
-
 
 .styleChoices-img {
   display: block;
@@ -448,17 +381,6 @@ h2 {
   margin:0 56px 20px;
 }
 
-.wireframes h2 {
-  text-align: left;
-  float: left;
-  font-size: 48px;
-  color: #458355;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-  clear: both;
-}
-
 .wireframes-text {
   display: block;
   float: left;
@@ -468,13 +390,6 @@ h2 {
 }
 
 .wireframes-text p {
-  text-align: left;
-  float: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 20px;
   clear: both;
 }
 
@@ -492,24 +407,6 @@ h2 {
 
 
 .design-text h2 {
-  text-align: left;
-  float: left;
-  font-size: 48px;
-  color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-  clear: both;
-}
-
-.design-text p {
-  text-align: left;
-  float: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 20px;
   clear: both;
 }
 
@@ -539,14 +436,6 @@ h2 {
   width:100%
 }
 
-
-.wireframes::after, .wireframes::before {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
-
 .userTesting-box {
   background-color: #F6E9D4;
   border-top: 2px solid #808080;
@@ -564,28 +453,12 @@ h2 {
 }
 
 .userTesting-text h2 {
-  text-align: left;
-  font-size: 48px;
   color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  display: block;
-  clear: both;
-  margin: 0;
-  padding-bottom: 20px;
 }
 
 .userTesting-text p {
-  text-align: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  display: block;
   clear: both;
-  margin: 0;
-  padding-bottom: 20px;
 }
-
 
 .userTesting-img {
   display: block;
@@ -604,31 +477,11 @@ h2 {
   margin:0 56px 20px;
 }
 
-.conclusion-text h2 {
-  text-align: left;
-  float: left;
-  font-size: 48px;
-  color: #458355;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .conclusion-text {
   display: block;
   float: left;
   margin-left: 120px;
   margin-bottom: 20px;
-}
-
-.conclusion-text p {
-  text-align: left;
-  float: left;
-  font-size: 21px;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 80px;
 }
 
 footer p:first-child {
