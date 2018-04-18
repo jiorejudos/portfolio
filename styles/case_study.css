@@ -10,12 +10,6 @@
   margin:0 56px 20px;
 }
 
-.aboutProject::after, .aboutProject::before {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .aboutProject-image{
   margin-left: 137px;
 }
@@ -69,7 +63,7 @@ h2 {
   display: block;
 }
 
-.aboutProject-line::before, .aboutProject-line::after, .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-box::after,
+.aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after, .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-box::after,
 .competitiveAnalysis-box::before, .userFlows::after, .userFlows::before,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before {
   content: " ";
@@ -173,7 +167,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-
 .personaContent h3 {
   text-align: center;
   float: left;
@@ -182,7 +175,6 @@ h2 {
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin-left: 60px;
-
 }
 
 .personaContent h4 {
@@ -218,7 +210,6 @@ h2 {
   display: inline;
 }
 
-
 .competitiveAnalysis-text-block {
   display: block;
   font-family: "Raleway", arial, sans-serif;
@@ -226,6 +217,10 @@ h2 {
   clear: both;
 }
 
+.competitiveAnalysis-text-block2 {
+  font-size: 21px;
+  font-family: "Raleway", arial, sans-serif;
+}
 
 .competitive-row {
   display: flex;
@@ -234,8 +229,6 @@ h2 {
 }
 
 .competitive-column {
-  flex: 20%;
-  max-width: 20%;
   padding-right: 120px;
   widows: 100%;
 }
@@ -244,9 +237,10 @@ h2 {
   display: block;
   float: left;
   align-content: center;
+  min-width: 100px;
+  max-width: 200px;
   margin-top: 8px 0px 20px 120px;
   vertical-align: middle;
-  width:100%;
   clear: both;
   padding-bottom: 20px
 }
@@ -257,56 +251,35 @@ h2 {
 
 .userFlows {
   display: block;
-  margin:0 56px 20px;
+  margin:0 56px 20px 176px;
 }
-
 
 .userFlows-text {
   display: block;
   float: left;
-  margin-left: 120px;
   margin-bottom: 20px;
-  clear: both;
 }
 
 .userFlows h3 {
-  text-align: left;
-  float: left;
   font-size: 21px;
   color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
-  clear: both;
 }
 
-.userFlows h4 {
-  text-align: left;
-  float: right;
-  padding-right: 325px;
-  font-size: 21px;
-  color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-  clear: both;
-}
-
-.userFlows-img1 {
-  display: block;
+.userFlows-img1{
   float: left;
-  margin-left: 120px;
+  display: inline;
   margin-bottom: 20px;
-  width: 300px;
+  width: 50%;
 }
 
-.userFlows-img2 {
-  display: block;
-  float: right;
-  margin-left: 120px;
+.userFlows-img2{
+  float:right;
+  display: inline;
   margin-bottom: 20px;
-  width: 300px;
-  padding-right: 150px;
+  width: 50%;
 }
 
 .siteMap-text p {
@@ -316,7 +289,6 @@ h2 {
 .siteMap-text {
   display: block;
   float: left;
-  margin-left: 120px;
   margin-bottom: 20px;
   clear: both;
 }
@@ -353,16 +325,9 @@ h2 {
   clear: both;
 }
 
-
 .wireframes, .design {
   display: block;
   margin:0 56px 20px;
-}
-
-.wireframes-text {
-  float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
 }
 
 .wireframes-text p {
@@ -373,7 +338,7 @@ h2 {
   clear: both;
 }
 
-.design-text {
+.design-text, .wireframes-text {
   display: block;
   float: left;
   margin-left: 120px;
@@ -438,6 +403,10 @@ input[type=button] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.button {
+  padding: 40px 0 0 380px;
 }
 
 .conclusion {
