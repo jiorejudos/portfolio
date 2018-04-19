@@ -327,12 +327,46 @@ h2 {
 
 .wireframes, .design {
   display: block;
-  margin:0 56px 20px;
+  margin:0 56px 20px 176px;
+}
+
+.wireframes-text {
+  display: block;
+  margin-bottom: 20px;
+  clear: both;
 }
 
 .wireframes-text p {
   clear: both;
 }
+
+.wireframes-img1 {
+-  display: block;
+-  float: left;
+-  margin-bottom: 20px;
+-  margin-top: 8px;
+   width: 50%;
+-  clear: both;
+-}
+
+.wireframes-img2 {
+-  display: block;
+-  float: center;
+-  margin-bottom: 20px;
+-  margin-top: 8px;
+   width: 50%;
+-  clear: both;
+-}
+
+.wireframes-img3 {
+-  display: block;
+-  float: right;
+-  margin-bottom: 20px;
+-  margin-top: 8px;
+   width: 50%;
+-  clear: both;
+-}
+
 
 .design-text h2, .wireframes-text h2 {
   clear: both;
@@ -340,8 +374,6 @@ h2 {
 
 .design-text, .wireframes-text {
   display: block;
-  float: left;
-  margin-left: 120px;
   margin-bottom: 20px;
   clear: both;
 }
