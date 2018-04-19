@@ -28,7 +28,7 @@
   padding: 0 20%;
 }
 
-p {
+.text p {
   text-align: left;
   float: left;
   font-size: 21px;
@@ -38,11 +38,21 @@ p {
   margin-bottom: 20px;
 }
 
-h2 {
+.green h2 {
   text-align: left;
   float: left;
   font-size: 48px;
   color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.purple h2 {
+  text-align: left;
+  float: left;
+  font-size: 48px;
+  color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
@@ -331,42 +341,27 @@ h2 {
 }
 
 .wireframes-text {
-  display: block;
   margin-bottom: 20px;
   clear: both;
 }
 
-.wireframes-text p {
-  clear: both;
+.wireframes h2 {
+  text-align: left;
+  font-size: 48px;
+  color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.wireframes-img1 {
--  display: block;
--  float: left;
--  margin-bottom: 20px;
--  margin-top: 8px;
-   width: 50%;
--  clear: both;
--}
-
-.wireframes-img2 {
--  display: block;
--  float: center;
--  margin-bottom: 20px;
--  margin-top: 8px;
-   width: 50%;
--  clear: both;
--}
-
-.wireframes-img3 {
--  display: block;
--  float: right;
--  margin-bottom: 20px;
--  margin-top: 8px;
-   width: 50%;
--  clear: both;
--}
-
+.wireframes-text p {
+  text-align: left;
+  font-size: 21px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 
 .design-text h2, .wireframes-text h2 {
   clear: both;
@@ -397,7 +392,8 @@ h2 {
 .gallery-column img {
   margin-top: 8px;
   vertical-align: middle;
-  width:100%
+  width:100%;
+  margin-bottom: 20px;
 }
 
 .userTesting {
@@ -438,7 +434,7 @@ input[type=button] {
 }
 
 .button {
-  padding: 40px 0 0 380px;
+  padding: 20px 0 0 380px;
 }
 
 .conclusion {
