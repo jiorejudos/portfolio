@@ -22,9 +22,6 @@
 }
 
 .aboutProject-text {
-  display: block;
-  float:left;
-  margin-bottom: 20px;
   padding: 0 20%;
 }
 
@@ -62,10 +59,9 @@
   border: 0;
   height: 0;
   box-shadow: 0 0 3px 1px #808080;
-
 }
 
-.userSurvey-box, .competitiveAnalysis-box, .styleChoices-box, .userTesting-box {
+.box {
   background-color: #F6E9D4;
   border-top: 2px solid #808080;
   border-bottom: 2px solid #808080;
@@ -84,11 +80,6 @@
 .userSurvey{
   margin-left: 120px;
   margin-right: 40px;
-
-}
-
-.userSurvey h2{
-  color:#3F3250
 }
 
 .userSurvey-text-block {
@@ -150,7 +141,6 @@
   flex: 20%;
   max-width:33%;
   padding: 0 38px;
-
 }
 
 .persona-img {
@@ -198,7 +188,7 @@
   margin-top: -40px;
 }
 
-.competitiveAnalysis{
+.section{
   margin-left: 120px;
   margin-right: 40px;
   display: flex;
@@ -206,11 +196,14 @@
   padding: 0 4px;
 }
 
-.competitiveAnalysis-text h2 {
-  color: #3F3250;
+.competitiveAnalysis-text-block {
+  display: block;
+  font-family: "Raleway", arial, sans-serif;
+  font-size: 36;
+  clear: both;
 }
 
-.competitiveAnalysis-text-block2 h3 {
+.competitiveAnalysis-text-block2 h5 {
   text-align: left;
   font-size: 32px;
   font-family: "Raleway", arial, sans-serif;
@@ -218,13 +211,6 @@
   display: block;
   clear: both;
   display: inline;
-}
-
-.competitiveAnalysis-text-block {
-  display: block;
-  font-family: "Raleway", arial, sans-serif;
-  font-size: 36px;
-  clear: both;
 }
 
 .competitiveAnalysis-text-block2 {
@@ -259,17 +245,6 @@
   clear: both;
 }
 
-.userFlows {
-  display: block;
-  margin:0 56px 20px 176px;
-}
-
-.userFlows-text {
-  display: block;
-  float: left;
-  margin-bottom: 20px;
-}
-
 .userFlows h3 {
   font-size: 21px;
   color: #3F3250;
@@ -296,13 +271,6 @@
   clear: both;
 }
 
-.siteMap-text {
-  display: block;
-  float: left;
-  margin-bottom: 20px;
-  clear: both;
-}
-
 .siteMap-img {
   display: block;
   float: left;
@@ -312,30 +280,8 @@
   clear: both;
 }
 
-.styleChoices{
-  margin-left: 120px;
-  margin-right: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
-.styleChoices-text h2 {
-  color: #3F3250;
-}
-
-.styleChoices-img {
-  display: block;
-  float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  margin-top: 8px;
-  vertical-align: middle;
-  width:100%;
-  clear: both;
-}
-
-.wireframes, .design {
+.userFlows, .wireframes, .design {
   display: block;
   margin:0 56px 20px 176px;
 }
@@ -367,12 +313,6 @@
   clear: both;
 }
 
-.design-text, .wireframes-text {
-  display: block;
-  margin-bottom: 20px;
-  clear: both;
-}
-
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
@@ -394,33 +334,6 @@
   vertical-align: middle;
   width:100%;
   margin-bottom: 20px;
-}
-
-.userTesting {
-  margin-left: 120px;
-  margin-right: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.userTesting-text h2 {
-  color: #3F3250;
-}
-
-.userTesting-text p {
-  clear: both;
-}
-
-.userTesting-img {
-  display: block;
-  float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  margin-top: 8px;
-  vertical-align: middle;
-  width:100%;
-  clear: both;
 }
 
 input[type=button] {
