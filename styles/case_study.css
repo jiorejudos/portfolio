@@ -10,19 +10,24 @@
   margin:0 56px 20px;
 }
 
-.aboutProject-image{
+.aboutProject-image, .aboutProject-text, .aboutProject-image2 img{
   margin-left: 137px;
 }
 
 .aboutProject-image img {
   width: 30%;
-  padding-left: 60px;
   height: auto;
   display: inline;
 }
 
-.aboutProject-text {
-  padding: 0 20%;
+.aboutProject-image2 img {
+  width: 70%;
+  height: auto;
+  display: inline;
+}
+
+.aboutProject-image img:nth-child(2){
+  margin-left:100px;
 }
 
 .text p {
@@ -139,7 +144,7 @@
 
 .personaColumn {
   flex: 20%;
-  max-width:33%;
+  max-width:35%;
   padding: 0 38px;
 }
 
@@ -178,7 +183,6 @@
 }
 
 .personaContent h4 {
-  text-align: center;
   float: left;
   font-size: 30px;
   color: black;
@@ -220,7 +224,7 @@
 
 .competitive-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0 4px;
 }
 
@@ -260,11 +264,19 @@
   width: 50%;
 }
 
+.userFlows-img1 img {
+  width: 90%
+}
+
 .userFlows-img2{
   float:right;
   display: inline;
   margin-bottom: 20px;
   width: 50%;
+}
+
+.userFlows-img2 img {
+  width: 90%
 }
 
 .siteMap-text p {
@@ -275,9 +287,12 @@
   display: block;
   float: left;
   margin-bottom: 20px;
-  width: 300px;
   height: inherit;
   clear: both;
+}
+
+.siteMap-img img{
+  width: 100%;
 }
 
 .userFlows, .wireframes, .design {
@@ -331,7 +346,7 @@
 .gallery-column img {
   margin-top: 8px;
   vertical-align: middle;
-  width:100%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -385,4 +400,10 @@ footer p:nth-child(2){
     font-size: 17px;
     margin: 0;
     padding-right: 60px;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
 }

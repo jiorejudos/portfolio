@@ -96,3 +96,8 @@ footer p:nth-child(2){
     margin: 0;
     padding-right: 60px;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
