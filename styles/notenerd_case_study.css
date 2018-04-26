@@ -19,3 +19,26 @@
   clear: both;
   padding-bottom: 20px;
 }
+
+.gallery-column1{
+  float: left;
+  display: inline;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.gallery-column1 img {
+  max-height: 400px;
+  width: auto;
+}
+
+.gallery-column2{
+  float:right;
+  display: inline;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.gallery-column2 img {
+  max-height: 400px;
+}

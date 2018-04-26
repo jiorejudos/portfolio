@@ -20,12 +20,6 @@
   display: inline;
 }
 
-.aboutProject-image2 img {
-  width: 70%;
-  height: auto;
-  display: inline;
-}
-
 .aboutProject-image img:nth-child(2){
   margin-left:100px;
 }
