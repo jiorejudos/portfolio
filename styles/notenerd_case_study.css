@@ -1,0 +1,21 @@
+.aboutProject-image2 img {
+  width: 70%;
+  height: auto;
+  display: inline;
+}
+
+.competitive-column1 {
+  padding-right: 120px;
+  widows: 100%;
+}
+
+.competitive-column1 img {
+  display: block;
+  float: left;
+  align-content: center;
+  max-height: 150px;
+  margin-top: 8px 0px 20px 120px;
+  vertical-align: middle;
+  clear: both;
+  padding-bottom: 20px;
+}

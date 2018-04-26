@@ -11,7 +11,7 @@
 }
 
 .aboutProject-image, .aboutProject-text, .aboutProject-image2 img{
-  margin-left: 137px;
+  margin-left: 120px;
 }
 
 .aboutProject-image img {
@@ -142,10 +142,20 @@
   padding: 0 4px 0px;
 }
 
-.personaColumn {
-  flex: 20%;
-  max-width:35%;
+.personaColumn1 {
+  max-width: 325px;
   padding: 0 38px;
+}
+
+.personaColumn2 {
+  max-width: 350px;
+  padding: 0 38px;
+}
+
+.personaColumn3 {
+  max-width: 500px;
+  padding: 0 38px;
+  margin-top: -10px;
 }
 
 .persona-img {
@@ -218,8 +228,16 @@
 }
 
 .competitiveAnalysis-text-block2 {
+  display: block;
   font-size: 21px;
   font-family: "Raleway", arial, sans-serif;
+}
+
+.competitiveAnalysis-text-block3 {
+  display: block;
+  font-size: 21px;
+  font-family: "Raleway", arial, sans-serif;
+  padding-top: 20px;
 }
 
 .competitive-row {
@@ -237,8 +255,8 @@
   display: block;
   float: left;
   align-content: center;
-  min-width: 100px;
-  max-width: 200px;
+  min-width: 200px;
+  max-width: 300px;
   margin-top: 8px 0px 20px 120px;
   vertical-align: middle;
   clear: both;
