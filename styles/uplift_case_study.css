@@ -21,25 +21,13 @@
   padding-bottom: 20px;
 }
 
-.gallery-column1{
+.userFlows-img1{
   float: left;
   display: inline;
   margin-bottom: 20px;
-  width: auto;
+  width: 80%;
 }
 
-.gallery-column1 img {
-  max-height: 400px;
-  width: auto;
-}
-
-.gallery-column2{
-  float:right;
-  display: inline;
-  margin-bottom: 20px;
-  width: auto;
-}
-
-.gallery-column2 img {
-  max-height: 400px;
+.userFlows-img1 img {
+  width: 90%
 }
