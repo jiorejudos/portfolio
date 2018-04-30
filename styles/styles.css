@@ -1,9 +1,22 @@
 body {
-  margin: 0;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .topnav h1 {
@@ -11,7 +24,7 @@ body {
   vertical-align: middle;
   display: inline;
   padding-left: 178px;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 100px;
   overflow: hidden;
   color: #fdfdfd;
@@ -78,15 +91,15 @@ footer {
 
 /* Medium screens (640px) */
 @media (min-width: 640px) {
-    html { font-size: 112%; }
+    html {font-size: 112%};
 }
 
 /* Medium and small screens (640px) */
 @media (min-width: 640px) {
-   html { font-size: 112%;}
+   html {font-size: 112%};
 }
 
 /* Large screens (1024px) */
 @media (min-width: 1024px) {
-   html { font-size: 120%}
+   html {font-size: 125%};
 }

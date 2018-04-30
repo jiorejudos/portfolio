@@ -1,17 +1,21 @@
+html {
+  font-size: 10px;
+}
+
 .workheader{
   position: relative;
-  border-top: 1px solid #3F3250;
-  margin: 180px 56px -70px;
+  border-top: .1rem solid #3F3250;
+  margin: 18rem 5.6rem -7rem;
   padding-top: 0;
 }
 
 .aboutProject {
   display: block;
-  margin:0 56px 20px;
+  margin:0 5.6rem 2rem;
 }
 
 .aboutProject-image, .aboutProject-text, .aboutProject-image2 img{
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 
 .aboutProject-image img {
@@ -27,44 +31,44 @@
 .text p {
   text-align: left;
   float: left;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .green h2 {
   text-align: left;
   float: left;
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .purple h2 {
   text-align: left;
   float: left;
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .aboutProject-line hr {
   border: 0;
   height: 0;
-  box-shadow: 0 0 3px 1px #808080;
+  box-shadow: 0 0 .3rem .1rem #808080;
 }
 
 .box {
   background-color: #F6E9D4;
-  border-top: 2px solid #808080;
-  border-bottom: 2px solid #808080;
-  padding: 60px 56px;
+  border-top: .2rem solid #808080;
+  border-bottom: .2rem solid #808080;
+  padding: 6rem 5.6rem;
   display: block;
 }
 
@@ -79,14 +83,14 @@
 }
 
 .userSurvey{
-  margin-left: 120px;
-  margin-right: 40px;
+  margin-left: 12rem;
+  margin-right: 4rem;
 }
 
 .userSurvey-text-block, .userSurvey-text-block1 {
   display: block;
   font-family: "Raleway", arial, sans-serif;
-  font-size: 36;
+  font-size: 2.1rem;
   clear: both;
 }
 
@@ -94,7 +98,7 @@
   text-align: right;
   float: left;
   display: inline-block;
-  font-size: 72px;
+  font-size: 7.2rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
@@ -105,60 +109,60 @@
 
 .userSurvey-text-block p{
   display: inline-block;
-  font-size: 21px;
+  font-size: 2.1rem;
   width: 65%;
 }
 
 .userPersonas {
   display: block;
-  margin-left: 60px;
+  margin-left: 6rem;
 }
 
 .userPersonas-text {
   display: block;
   float: left;
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 
 .userPersonas-text-quote {
   float: left;
   text-align: center;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bolder;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   color: #3F3250;
-  padding-left: 175px;
+  padding-left: 17.5rem;
 }
 
 .personaRow {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px 0px;
+  padding: 0 .4rem 0px;
 }
 
 .personaColumn1 {
-  max-width: 325px;
-  padding: 0 38px;
+  max-width: 32rem;
+  padding: 0 3.8rem;
 }
 
 .personaColumn2 {
-  max-width: 350px;
-  padding: 0 38px;
+  max-width: 35rem;
+  padding: 0 3.8rem;
 }
 
 .personaColumn3 {
-  max-width: 500px;
-  padding: 0 38px;
+  max-width: 50rem;
+  padding: 0 3.8rem;
   margin-top: -10px;
 }
 
 .persona-img {
-  margin-top: 8px;
+  margin-top: .8rem;
   width:100%;
-  padding-left: 80px;
-  padding-bottom: 80px;
+  padding-left: 8rem;
+  padding-bottom: 8rem;
 }
 
 .personaContent{
@@ -168,53 +172,53 @@
 .personaContent2{
     font-family: "Raleway", arial, sans-serif;
     float: right;
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
 .userPersonas-img {
   display: block;
   float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
+  margin-left: 12rem;
+  margin-bottom: 2rem;
 }
 
 .personaContent h3 {
   float: left;
-  font-size: 40px;
+  font-size: 4rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-left: 60px;
+  margin-left: 6rem;
 }
 
 .personaContent h4 {
   float: left;
-  font-size: 30px;
+  font-size: 3rem;
   color: black;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 200;
-  margin-left: 60px;
-  margin-top: -40px;
+  margin-left: 6rem;
+  margin-top: -4rem;
 }
 
-.section{
-  margin-left: 120px;
+.section {
+  margin-left: 12rem;
   margin-right: 40px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 .4rem;
 }
 
 .competitiveAnalysis-text-block  {
   display: block;
   font-family: "Raleway", arial, sans-serif;
-  font-size: 36;
+  font-size: 2.1rem;
   clear: both;
 }
 
 .competitiveAnalysis-text-block2 h5 {
   text-align: left;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   display: block;
@@ -224,25 +228,25 @@
 
 .competitiveAnalysis-text-block2 {
   display: block;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
 }
 
 .competitiveAnalysis-text-block3 {
   display: block;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 
 .competitive-row {
   display: flex;
   flex-wrap: nowrap;
-  padding: 0 4px;
+  padding: 0 .4rem;
 }
 
 .competitive-column {
-  padding-right: 120px;
+  padding-right: 12rem;
   widows: 100%;
 }
 
@@ -250,12 +254,12 @@
   display: block;
   float: left;
   align-content: center;
-  min-width: 200px;
-  max-width: 300px;
-  margin: 8px 0px 20px 0;
+  min-width: 20rem;
+  max-width: 30rem;
+  margin: .8rem 0px 2rem 0;
   vertical-align: middle;
   clear: both;
-  padding-bottom: 20px
+  padding-bottom: 2rem
 }
 
 .userFlows-text p {
@@ -263,17 +267,17 @@
 }
 
 .userFlows h3 {
-  font-size: 21px;
+  font-size: 2.1rem;
   color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .userFlows-img1{
   float: left;
   display: inline;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   width: 50%;
 }
 
@@ -284,7 +288,7 @@
 .userFlows-img2{
   float:right;
   display: inline;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   width: 50%;
 }
 
@@ -299,7 +303,7 @@
 .siteMap-img {
   display: block;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   height: inherit;
   clear: both;
 }
@@ -310,30 +314,30 @@
 
 .userFlows, .wireframes, .design {
   display: block;
-  margin:0 56px 20px 176px;
+  margin:0 5.6rem 2rem 17.6rem;
 }
 
 .wireframes-text {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   clear: both;
 }
 
 .wireframes h2 {
   text-align: left;
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .wireframes-text p {
   text-align: left;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .design-text h2, .wireframes-text h2 {
@@ -343,7 +347,7 @@
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 .4rem;
 }
 
 .gallery img {
@@ -357,62 +361,62 @@
 }
 
 .gallery-column img {
-  margin-top: 8px;
+  margin-top: .8rem;
   vertical-align: middle;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 input[type=button] {
     background-color: #458355;
     color: white;
-    font-size: 18px;
-    padding: 12px 20px;
+    font-size: 1.8rem;
+    padding: 1.2rem 2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: .4rem;
     cursor: pointer;
 }
 
 .button {
-  padding: 20px 0 0 380px;
+  padding: 2rem 0 0 38rem;
 }
 
 .conclusion {
   display: block;
-  margin:0 56px 20px;
+  margin:0 5.6rem 2rem;
 }
 
 .conclusion-text {
   display: block;
   float: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
+  margin-left: 12rem;
+  margin-bottom: 2rem;
 }
 
 footer p:first-child {
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 2rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: inline;
     vertical-align: middle;
     font-weight: bold;
-    padding-left: 60px;
+    padding-left: 6rem;
 }
 
 footer p:nth-child(2){
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
-    padding-right: 20px;
+    padding-right: 2rem;
     text-decoration: none;
     float: right;
     display: inline;
     vertical-align: middle;
-    font-size: 17px;
+    font-size: 1.7rem;
     margin: 0;
-    padding-right: 60px;
+    padding-right: 6rem;
 }
 
 *, *::before, *::after {
