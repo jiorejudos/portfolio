@@ -115,7 +115,80 @@ footer p:nth-child(2){
     padding-right: 6rem;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
+
+/* medium screen */
+@media screen and (max-width: 959px) and (min-width: 600px) {
+   .column {
+     min-width: 50%;
+     flex: 50%;
+   }
+   .main h2 {
+     font-size: 28px;
+     padding: 0 56px;
+   }
+   .main p {
+     font-size: 16px;
+     padding: 0 56px;
+   }
+   .main-container img {
+     width: 100%;
+   }
+   .topnav h1 {
+     font-size: 24px;
+     flex-wrap: wrap;
+   }
+}
+
+/* small screen  */
+@media screen and (max-width: 599px) and (min-width: 320px) {
+  .nav a {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+    padding:0;
+  }
+
+  .column {
+    min-width: 100%;
+    flex: 100%;
+  }
+  .main h2 {
+    font-size: 38px;
+    padding: 0 56px;
+  }
+  .main p {
+    font-size: 14px;
+    padding: 0 56px;
+  }
+  .main-container img {
+    width: auto;
+  }
+footer p:first-child {
+  visibility: hidden;
+}
+.topnav h1 {
+  display: none;
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 960px) {
+  .column {
+    min-width: 33%;
+    flex: 33%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
