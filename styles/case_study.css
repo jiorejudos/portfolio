@@ -14,7 +14,7 @@ html {
   margin:0 5.6rem 2rem;
 }
 
-.aboutProject-image, .aboutProject-text, .aboutProject-image2 img{
+.aboutProject-image, .aboutProject-text, .aboutProject-image2 img {
   margin-left: 12rem;
 }
 
@@ -24,7 +24,7 @@ html {
   display: inline;
 }
 
-.aboutProject-image img:nth-child(3), .aboutProject-image img:nth-child(2) {
+.aboutProject-image img:nth-child(3), img:nth-child(2) {
   margin-left: 5rem;
 }
 
@@ -71,7 +71,8 @@ html {
   border-bottom: .2rem solid #808080;
   padding: 6rem 5.6rem;
   display: block;
-  margin-top: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
@@ -84,7 +85,7 @@ html {
   clear: both;
 }
 
-.userSurvey{
+.userSurvey {
   margin-left: 12rem;
   margin-right: 4rem;
 }
@@ -109,7 +110,7 @@ html {
   margin-right: 5%
 }
 
-.userSurvey-text-block p{
+.userSurvey-text-block p {
   display: inline-block;
   font-size: 2.1rem;
   width: 65%;
@@ -168,11 +169,11 @@ html {
   padding-bottom: 8rem;
 }
 
-.personaContent{
+.personaContent {
     font-family: "Raleway", arial, sans-serif;
 }
 
-.personaContent2{
+.personaContent2 {
     font-family: "Raleway", arial, sans-serif;
     float: right;
     padding-top: 6rem;
@@ -207,8 +208,19 @@ html {
 .section {
   margin-left: 12rem;
   margin-right: 40px;
-  display: inline;
+  padding: 0 .4rem 10rem;
+}
+
+.section2 {
+  margin-left: 12rem;
+  margin-right: 40px;
   padding: 0 .4rem;
+  display: inline-block;
+}
+
+.section2 img {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 .competitiveAnalysis-text-block  {
@@ -276,7 +288,7 @@ html {
   margin-bottom: 1rem;
 }
 
-.userFlows-img1{
+.userFlows-img1 {
   float: left;
   display: inline;
   margin-bottom: 2rem;
@@ -287,7 +299,7 @@ html {
   width: 90%
 }
 
-.userFlows-img2{
+.userFlows-img2 {
   float:right;
   display: inline;
   margin-bottom: 2rem;
@@ -310,7 +322,7 @@ html {
   clear: both;
 }
 
-.siteMap-img img{
+.siteMap-img img {
   width: 100%;
 }
 
@@ -318,7 +330,7 @@ html {
   margin:0 5.6rem 2rem 17.6rem;
 }
 
-.wireframes, .design{
+.wireframes, .design {
   display: block;
   margin:0 5.6rem 2rem 17.6rem;
 }
@@ -431,14 +443,13 @@ footer p:nth-child(2){
   html {
     font-size: 50%;
   }
-  .aboutProject-image img:nth-child(2), img:nth-child(3) {
-    display: none;
-    margin: 0;
-  }
+  .aboutProject-image img:nth-child(3), img:nth-child(2) {
+  margin-left: 0;
+}
   .aboutProject-image img, .userFlows-img1, .userFlows-img2 {
     width: 100%;
   }
-  .aboutProject-image, .userFlows {
+  .aboutProject-image, .userFlows, .wireframes, .design {
     margin: 56px 56px 0;
   }
   .aboutProject {
@@ -460,7 +471,7 @@ footer p:nth-child(2){
   .userSurvey-text-block p {
     width: 100%;
   }
-  .userPersonas-text {
+  .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
   .personaColumn1, .personaColumn2, .userPersonas-text-quote, .personaColumn3 {
@@ -486,14 +497,111 @@ footer p:nth-child(2){
     max-width: 8rem;
     margin: 0;
   }
+  .section2 {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline;
+  }
+  .gallery-row {
+    display:flex;
+  }
+  .gallery-column {
+    max-width: 125%;
+    flex: none;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .button {
+    padding-left: 5rem;
+  }
 }
 
   /* medium screen */
   @media screen and (max-width: 959px) and (min-width: 600px) {
     .aboutProject-image img:nth-child(2) {
-      visibility: hidden;
+      display: none;
     }
+    html {
+      font-size: 80%;
+    }
+    .aboutProject-image img:nth-child(3), img:nth-child(2) {
+    margin-left: 0;
+    width: 45%;
   }
+  .aboutProject-image img {
+    width: 100%;
+  }
+  .userSurvey-text-block p {
+    width: 100%;
+  }
+  .userSurvey, .userPersonas-text, .conclusion-text {
+    margin-left: 0;
+  }
+  .userPersonas-text-quote {
+    padding-left: 0;
+  }
+  .persona-img img{
+    width: 150%;
+  }
+  .persona-img {
+    padding-bottom: 3rem;
+    clear: both;
+  }
+  .personaContent h3 {
+    margin-left: 0;
+    margin-bottom: 0;
+    float: left;
+  }
+  .personaContent h4 {
+    margin-left: 0;
+    margin-bottom: .5rem;
+    float: inherit;
+    display: block;
+  }
+  .personaContent2 {
+    padding-top: 3rem;
+  }
+  .section {
+    margin-left: 0;
+    display: inline;
+  }
+  .competitive-column {
+    width: 50%;
+    padding-right: 4rem;
+  }
+  .competitive-column img {
+    min-width: 10rem;
+    max-width: 13rem;
+    margin: 0;
+  }
+  .userFlows-img1, .userFlows-img2 {
+    width: 100%;
+  }
+  .userFlows, .wireframes, .design {
+    margin: 56px 56px 0;
+  }
+  .aboutProject-image img:nth-child(3), img:nth-child(2) {
+  margin-left: 0;
+  width: 100%;
+}
+.section2 {
+  margin-left: 0;
+  margin-right: 0;
+  display: inline;
+}
+.section2 img {
+  width: 100%;
+}
+.gallery-column img {
+  max-width: 150%;
+  padding: 1rem;
+  display: inline;
+}
+.button {
+  padding-left: 18rem;
+}
+}
 
 
 @media screen and (min-width: 960px) {

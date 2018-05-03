@@ -133,6 +133,7 @@ footer p:nth-child(2){
   .main-container img {
     width: auto;
   }
+}
 
   /* medium screen */
   @media screen and (max-width: 959px) and (min-width: 600px) {

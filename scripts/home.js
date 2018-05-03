@@ -1,13 +1,8 @@
 function showMenu() {
     var x = document.getElementById("myNav");
-    if (menuOpen === false) {
-        x.classList.add("responsive");
-        menuOpen = true;
+    if (x.className === "nav") {
+        x.className += " responsive";
     } else {
-        x.classList.remove("responsive");
-        menuOpen = false;
+        x.className = "nav";
     }
 }
-var navIcon = document.getElementsByClassName("icon")[0]
-var menuOpen = false;
-navIcon.addEventListener("click", showMenu)
