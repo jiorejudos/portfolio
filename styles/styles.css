@@ -23,9 +23,9 @@ html {
   position: relative;
   vertical-align: middle;
   display: inline;
-  padding-left: 178px;
-  font-size: 38px;
-  line-height: 100rem;
+  padding-left: 17.8rem;
+  font-size: 3.8rem;
+  line-height: 10rem;
   overflow: hidden;
   color: #fdfdfd;
   font-family: "Titillium Web", arial, sans-serif;
@@ -41,7 +41,7 @@ html {
 
 .logo {
   position: fixed;
-  padding-left: 56px;
+  padding-left: 5.6rem;
   float: left;
   top: 0;
   z-index: 2;
@@ -54,18 +54,18 @@ html {
     right: 0;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 10rem;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
 .topnav .nav {
-  height: 100px;
+  height: 10rem;
   vertical-align: middle;
   display: inline-block;
   float:right;
-  padding-right: 60px;
+  padding-right: 6rem;
 }
 
 .topnav .nav a {
@@ -73,21 +73,21 @@ html {
     vertical-align: middle;
     color: #fdfdfd;
     text-align: center;
-    padding: 0 16px;
+    padding: 0 1.6rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-family: "Raleway", arial, sans-serif;
-    height: 100px;
-    line-height: 100px;
+    height: 10rem;
+    line-height: 10rem;
     white-space: nowrap;
 }
 
 footer {
     background-color: #3F3250;
-    height: 100px;
+    height: 10rem;
 	  overflow: hidden;
-    padding: 40px 0 0 0;
-    margin-top: 75px;
+    padding: 4rem 0 0 0;
+    margin-top: 7.5rem;
 }
 
 .topnav .nav .icon {
@@ -105,11 +105,11 @@ footer {
 }
 
 .dropdown {
-    font-size: 17px;
+    font-size: 1.7rem;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 1.4rem 1.65rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -119,15 +119,15 @@ footer {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 16rem;
+    box-shadow: 0 .8rem 1.6rem 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 1.2rem 1.6rem;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -160,6 +160,7 @@ footer {
   }
 .topnav .nav.responsive {
     position: relative;}
+
 .topnav .nav.responsive a.icon {
     position: absolute;
     right: 0;
