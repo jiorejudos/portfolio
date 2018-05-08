@@ -78,8 +78,9 @@ html {
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
 .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before,
 .competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after,
-.competitiveAnalysis-box::before, .userFlows::after, .userFlows::before,
-.wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before {
+.competitiveAnalysis-box::before, .userFlows::after, .userFlows::before, .design::before, .design::after,
+.wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before, .userTesting::before, .userTesting::after
+{
   content: " ";
   display: table;
   clear: both;
@@ -350,16 +351,13 @@ html {
 }
 
 .wireframes-text p {
+  clear: both;
   text-align: left;
   font-size: 2.1rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 2rem;
-}
-
-.design-text h2, .wireframes-text h2 {
-  clear: both;
 }
 
 .gallery-row {
