@@ -25,7 +25,7 @@ html {
   display: inline;
   padding-left: 178px;
   font-size: 38px;
-  line-height: 100px;
+  line-height: 100rem;
   overflow: hidden;
   color: #fdfdfd;
   font-family: "Titillium Web", arial, sans-serif;
@@ -48,6 +48,7 @@ html {
 }
 
 .topnav {
+    display: inline-block;
     background-color: #3F3250;
     overflow: hidden;
     right: 0;
@@ -62,7 +63,7 @@ html {
 .topnav .nav {
   height: 100px;
   vertical-align: middle;
-  display:inline-block;
+  display: inline-block;
   float:right;
   padding-right: 60px;
 }
@@ -143,7 +144,8 @@ footer {
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
   .topnav .nav a {
-    display: none;}
+    display: none;
+  }
   .topnav .nav a.icon {
     float: right;
     display: block;
@@ -182,7 +184,8 @@ footer {
 
   @media screen and (max-width: 959px) and (min-width: 600px) {
     .nav a {
-      display: none;}
+      display: none;
+    }
     .nav a.icon {
       float: right;
       display: block;
