@@ -91,25 +91,28 @@ footer {
 }
 
 
-
 @media screen and (max-width: 599px) and (min-width: 320px) {
-
 .topnav .nav {
   float: right;
   padding-right: 2rem;
 }
-
-.topnav .nav a:nth-child(1){
+.topnav .nav a:nth-child(1) {
   display: none;
 }
-
-  .topnav h1 {
+.topnav h1 {
     display: none;
     flex-wrap: wrap;
   }
 
 
-  @media screen and (max-width: 959px) and (min-width: 600px) {
-    .nav a {
-      display: none;
+@media screen and (max-width: 959px) and (min-width: 600px) {
+.nav a {
+    display: none;
     }
+.topnav .nav a:nth-child(1) {
+     display: none;
+    }
+.topnav h1 {
+      display: none;
+      flex-wrap: wrap;
+      }

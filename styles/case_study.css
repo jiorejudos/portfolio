@@ -39,6 +39,17 @@ html {
 }
 
 
+.case_study_title h2 {
+  text-align: left;
+  float: left;
+  font-size: 3.8rem;
+  color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin: 62px 62px 0;
+  margin-bottom: 2rem;
+}
+
 .green h2 {
   text-align: left;
   float: left;
@@ -158,9 +169,8 @@ html {
 }
 
 .personaColumn3 {
-  max-width: 36rem;
+  max-width: 45rem;
   padding: 0 3.8rem;
-  margin-top: -10px;
 }
 
 .persona-img {
@@ -177,7 +187,7 @@ html {
 .personaContent2 {
     font-family: "Raleway", arial, sans-serif;
     float: right;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 .userPersonas-img {
@@ -441,6 +451,9 @@ footer p:nth-child(2){
   html {
     font-size: 50%;
   }
+  .aboutProject-image img:nth-child(2) {
+    display: none;
+  }
   .aboutProject-image img:nth-child(3), img:nth-child(2) {
   margin-left: 0;
 }
@@ -472,12 +485,15 @@ footer p:nth-child(2){
   .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
-  .personaColumn1, .personaColumn2, .userPersonas-text-quote, .personaColumn3 {
+.userPersonas-text-quote {
     padding-left: 0;
+    padding-top: 2rem;
   }
   .persona-img {
-    padding-left: 0;
-    padding-bottom: 0;
+  padding: 0
+  }
+  .personaColumn1 {
+    padding: 0;
   }
   .personaContent2 {
     padding-top: 0;
@@ -517,9 +533,19 @@ footer p:nth-child(2){
 footer p:first-child {
   visibility: hidden;
 }
+.personaContent h4 {
+  margin-bottom: 1rem;
+}
+.personaContent h3 {
+  margin-bottom: 1rem;
+}
+.personaContent2 p {
+  padding-top: 2rem;
+}
+
 
   /* medium screen */
-  @media screen and (max-width: 959px) and (min-width: 600px) {
+@media screen and (max-width: 959px) and (min-width: 600px) {
     .aboutProject-image img:nth-child(2) {
       display: none;
     }
@@ -531,7 +557,7 @@ footer p:first-child {
     width: 45%;
   }
   .aboutProject-image img {
-    width: 100%;
+    width: 548px;
   }
   .userSurvey-text-block p {
     width: 100%;
@@ -542,7 +568,7 @@ footer p:first-child {
   .userPersonas-text-quote {
     padding-left: 0;
   }
-  .persona-img img{
+  .persona-img img {
     width: 150%;
   }
   .persona-img {
@@ -602,7 +628,16 @@ footer p:first-child {
 .button {
   padding-left: 18rem;
 }
+.topnav {
+  max-height: 8rem;
 }
+.topnav h1 {
+    display: none;
+      flex-wrap: wrap;
+      }
+.case_study_title h2 {
+  display: none;
+      }
 
 
 @media screen and (min-width: 960px) {
@@ -610,4 +645,6 @@ footer p:first-child {
     min-width: 33%;
     flex: 33%;
   }
+.case_study_title h2 {
+  display: none;
 }
