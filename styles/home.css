@@ -157,6 +157,9 @@ footer p:nth-child(2){
        flex-wrap: wrap;
      }
   }
+  footer p:first-child {
+    visibility: hidden;
+  }
 
 @media screen and (min-width: 960px) {
   .column {

@@ -514,6 +514,9 @@ footer p:nth-child(2){
     padding-left: 5rem;
   }
 }
+footer p:first-child {
+  visibility: hidden;
+}
 
   /* medium screen */
   @media screen and (max-width: 959px) and (min-width: 600px) {
