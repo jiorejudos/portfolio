@@ -529,7 +529,6 @@ footer p:nth-child(2){
   .button {
     padding-left: 5rem;
   }
-}
 footer p:first-child {
   visibility: hidden;
 }
@@ -542,7 +541,7 @@ footer p:first-child {
 .personaContent2 p {
   padding-top: 2rem;
 }
-
+}
 
   /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
@@ -638,6 +637,7 @@ footer p:first-child {
 .case_study_title h2 {
   display: none;
       }
+    }
 
 
 @media screen and (min-width: 960px) {
@@ -647,4 +647,5 @@ footer p:first-child {
   }
 .case_study_title h2 {
   display: none;
+}
 }
