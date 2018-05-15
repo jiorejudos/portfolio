@@ -2,7 +2,7 @@ html {
   font-size: 10px;
 }
 
-.workheader{
+.workheader {
   position: relative;
   border-top: .1rem solid #3F3250;
   margin: 18rem 5.6rem -7rem;
@@ -300,41 +300,20 @@ html {
 }
 
 .userFlows-img1 {
+  position: absolute;
   float: left;
-  display: inline;
-  margin-bottom: 2rem;
-  width: 50%;
+  margin-left: -5rem;
+  margin-top: -7.5rem;
+  width: 55%;
 }
 
-.userFlows-img1 img {
-  width: 90%
+.userFlows-img1 img{
+  width: 95%;
+  opacity: 0.5;
 }
 
-.userFlows-img2 {
-  float:right;
-  display: inline;
-  margin-bottom: 2rem;
-  width: 50%;
-}
-
-.userFlows-img2 img {
-  width: 90%
-}
-
-.siteMap-text p {
-  clear: both;
-}
-
-.siteMap-img {
-  display: block;
-  float: left;
-  margin-bottom: 2rem;
-  height: inherit;
-  clear: both;
-}
-
-.siteMap-img img {
-  width: 100%;
+.userFlows-text p, .userFlows-text h2{
+  position: relative;
 }
 
 .userFlows {
@@ -451,10 +430,10 @@ footer p:nth-child(2){
   html {
     font-size: 50%;
   }
-  .aboutProject-image img:nth-child(2) {
+  .aboutProject-image img:nth-child(3), img:nth-child(2) {
     display: none;
   }
-  .aboutProject-image img:nth-child(3), img:nth-child(2) {
+  .aboutProject-image img:nth-child(1) {
   margin-left: 0;
 }
   .aboutProject-image img, .userFlows-img1, .userFlows-img2 {
@@ -545,7 +524,7 @@ footer p:first-child {
 
   /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
-    .aboutProject-image img:nth-child(2) {
+    .aboutProject-image img:nth-child(2)  {
       display: none;
     }
     html {

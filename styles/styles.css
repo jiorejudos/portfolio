@@ -31,10 +31,23 @@ html {
   font-family: "Titillium Web", arial, sans-serif;
 }
 
-.topnav .nav a:hover, .dropdown:hover .dropbtn {
+.topnav .nav a:hover {
     color: #FFBD66;
 }
-.topnav .nav a.active {
+
+.topnav h1:hover {
+    color: #FFBD66;
+}
+
+.topnav .nav a:active {
+    color: white;
+    text-decoration-color: #458355;
+}
+
+.topnav a {
+  text-decoration: none;
+}
+.topnav h1:active {
     color: white;
     text-decoration-color: #458355;
 }
@@ -45,6 +58,17 @@ html {
   float: left;
   top: 0;
   z-index: 2;
+}
+
+.logo h1 {
+  position: absolute;
+  text-align: center;
+  color: #3F3250;
+  font-family: "Titillium Web", arial, sans-serif;
+  font-size: 160px;
+  top: -180px;
+  left: 8.6rem;
+  font-weight: 600;
 }
 
 .topnav {
