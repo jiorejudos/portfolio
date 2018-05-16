@@ -287,37 +287,43 @@ html {
   padding-bottom: 2rem
 }
 
-.userFlows-text p {
-  clear: both;
-}
-
-.userFlows h3 {
-  font-size: 2.1rem;
-  color: #3F3250;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 1rem;
+.userFlows p, .userFlows h2 {
+  position: relative;
 }
 
 .userFlows-img1 {
   position: absolute;
+  margin-top: -55px;
+  margin-left: 50rem;
+  width: 50%;
+  opacity: .40;
+}
+
+.userFlows-img1 img {
+  width: 70%
+}
+
+.userFlows-img2 {
+  position: absolute;
+  padding-top: 15rem;
   float: left;
-  margin-left: -5rem;
-  margin-top: -7.5rem;
-  width: 55%;
+  width: 50%;
+  opacity: .40;
 }
 
-.userFlows-img1 img{
-  width: 95%;
-  opacity: 0.5;
+.userFlows-img2 img {
+  width: 75%
 }
 
-.userFlows-text p, .userFlows-text h2{
-  position: relative;
+.flow_button {
+  position: absolute;
+  margin-top: 200px;
+  align-items: center;
 }
 
 .userFlows {
-  margin:0 5.6rem 2rem 17.6rem;
+  margin:0 5.6rem 45rem 17.6rem;
+
 }
 
 .wireframes, .design {
@@ -490,6 +496,19 @@ footer p:nth-child(2){
     max-width: 8rem;
     margin: 0;
   }
+
+  .userFlows {
+    margin-bottom: 40rem;
+  }
+
+  .userFlows-img2 img {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .userFlows-img1 img {
+    display: none;
+  }
   .section2 {
     margin-left: 0;
     margin-right: 0;
@@ -508,6 +527,8 @@ footer p:nth-child(2){
   .button {
     padding-left: 5rem;
   }
+
+
 footer p:first-child {
   visibility: hidden;
 }
