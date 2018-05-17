@@ -67,7 +67,7 @@ html {
   font-family: "Titillium Web", arial, sans-serif;
   font-size: 160px;
   top: -180px;
-  left: 8.6rem;
+  left: 8.4rem;
   font-weight: 600;
 }
 
@@ -118,7 +118,7 @@ footer {
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .topnav .nav {
   float: right;
-  padding-right: 2rem;
+  margin-right: 3rem;
 }
 .topnav .nav a:nth-child(1) {
   display: none;
@@ -127,16 +127,36 @@ footer {
     display: none;
     flex-wrap: wrap;
   }
-
-
-@media screen and (max-width: 959px) and (min-width: 600px) {
-.nav a {
-    display: none;
+html {
+    font-size: 50%;
+  }
+  .topnav .nav {
+        float: right;
+        margin-right: 0;
+      }
+      .logo img {
+        height: 90px;
+      }
+      .logo h1 {
+      left: 8.1rem;
     }
+}
+
+  /* medium screen */
+@media screen and (max-width: 959px) and (min-width: 600px) {
 .topnav .nav a:nth-child(1) {
      display: none;
     }
 .topnav h1 {
       display: none;
-      flex-wrap: wrap;
       }
+html {
+        font-size: 80%;
+      }
+.topnav {
+        max-height: 8rem;
+      }
+      .logo h1 {
+      left: 7.8rem;
+    }
+    }

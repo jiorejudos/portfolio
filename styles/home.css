@@ -133,6 +133,15 @@ footer p:nth-child(2){
   .main-container img {
     width: auto;
   }
+  html {
+    font-size: 50%;
+  }
+.topnav .nav {
+padding-right: 0
+}
+footer p:first-child {
+  visibility: hidden;
+}
 }
 
   /* medium screen */
@@ -150,16 +159,19 @@ footer p:nth-child(2){
        padding: 0 56px;
      }
      .main-container img {
-       width: 100%;
+       width: auto;
      }
      .topnav h1 {
        font-size: 24px;
        flex-wrap: wrap;
      }
-  }
+     html {
+       font-size: 80%;
+     }
   footer p:first-child {
     visibility: hidden;
   }
+}
 
 @media screen and (min-width: 960px) {
   .column {

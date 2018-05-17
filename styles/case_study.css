@@ -84,6 +84,7 @@ html {
   display: block;
   margin-top: 8rem;
   margin-bottom: 8rem;
+  clear: both;
 }
 
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
@@ -142,35 +143,19 @@ html {
 
 .userPersonas-text-quote {
   float: left;
-  text-align: center;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bolder;
-  margin-top: 0;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   color: #3F3250;
-  padding-left: 17.5rem;
+  clear: left;
 }
 
-.personaRow {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 .4rem 0px;
-}
-
-.personaColumn1 {
-  max-width: 32rem;
-  padding: 0 3.8rem;
-}
-
-.personaColumn2 {
-  max-width: 32rem;
-  padding: 0 3.8rem;
-}
-
-.personaColumn3 {
-  max-width: 45rem;
-  padding: 0 3.8rem;
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 325px 325px 430px;
+  grid-template-rows: 300px;
+  padding: 0px 4rem 0px;
 }
 
 .persona-img {
@@ -185,6 +170,12 @@ html {
 }
 
 .personaContent2 {
+    font-family: "Raleway", arial, sans-serif;
+    float: right;
+    padding-top: 4rem;
+}
+
+.personaContent3 {
     font-family: "Raleway", arial, sans-serif;
     float: right;
     padding-top: 4rem;
@@ -219,7 +210,7 @@ html {
 .section {
   margin-left: 12rem;
   margin-right: 40px;
-  padding: 0 .4rem 10rem;
+  padding: 0 .4rem 4rem;
 }
 
 .section2 {
@@ -235,33 +226,36 @@ html {
 }
 
 .competitiveAnalysis-text-block  {
-  display: block;
   font-family: "Raleway", arial, sans-serif;
   font-size: 1.8rem;
-  clear: both;
+  display: inline-block;
 }
 
-.competitiveAnalysis-text-block2 h5 {
-  text-align: left;
-  font-size: 3.2rem;
+.competitiveAnalysis-text-block2 h3 {
+  text-align: right;
+  float: left;
+  display: inline-block;
+  font-size: 2rem;
   font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  display: block;
-  clear: both;
-  display: inline;
+  font-weight: 600;
+  margin: 0;
+  width: 15%;
+  margin-right: 5%
 }
 
-.competitiveAnalysis-text-block2 {
-  display: block;
+.competitiveAnalysis-text-block2 p {
+  display: inline-block;
   font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
+  width: 80%;
 }
 
 .competitiveAnalysis-text-block3 {
-  display: block;
-  font-size: 2.1rem;
+  display: inline-block;
+  font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
   padding-top: 2rem;
+  margin-bottom: -10px;
 }
 
 .competitive-row {
@@ -485,14 +479,31 @@ footer p:nth-child(2){
     padding-left: 0;
     padding-top: 2rem;
   }
-  .persona-img {
-  padding: 0
+  .grid-container {
+    display: inline;
+    padding: 0px 4rem 0px;
   }
-  .personaColumn1 {
-    padding: 0;
+  .personaContent {
+    margin-left: -2rem;
+    margin-right: 5rem;
   }
   .personaContent2 {
-    padding-top: 0;
+    padding-right: 6rem;
+  }
+  .persona-img {
+  padding: 0;
+  }
+  .persona-img img{
+  width: 75%
+  }
+  .personaContent h4 {
+    margin-bottom: 1rem;
+  }
+  .personaContent h3 {
+    margin-bottom: 1rem;
+  }
+  .personaContent3 {
+  margin-bottom: 6rem;
   }
   .section {
     margin-left: 0;
@@ -507,9 +518,15 @@ footer p:nth-child(2){
     max-width: 8rem;
     margin: 0;
   }
+  .competitiveAnalysis-text-block2 h3 {
+    margin: 1px;
+  }
+  .competitiveAnalysis-text-block2 p {
+    width: 100%;
+  }
 
   .userFlows {
-    margin-bottom: 40rem;
+    margin-bottom: 25rem;
   }
 
   .userFlows-img2 img {
@@ -535,37 +552,21 @@ footer p:nth-child(2){
   .section2 img {
     width: 100%;
   }
-
-
-
 footer p:first-child {
   visibility: hidden;
-}
-.personaContent h4 {
-  margin-bottom: 1rem;
-}
-.personaContent h3 {
-  margin-bottom: 1rem;
-}
-.personaContent2 p {
-  padding-top: 2rem;
 }
 }
 
   /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
-    .aboutProject-image img:nth-child(2)  {
-      display: none;
-    }
+  .aboutProject-image img:nth-child(3), img:nth-child(2) {
+    display: none;
+  }
     html {
       font-size: 80%;
     }
-    .aboutProject-image img:nth-child(3), img:nth-child(2) {
-    margin-left: 0;
-    width: 45%;
-  }
   .aboutProject-image img {
-    width: 548px;
+    width: 100%;
   }
   .userSurvey-text-block p {
     width: 100%;
@@ -577,43 +578,66 @@ footer p:first-child {
     padding-left: 0;
   }
   .persona-img img {
-    width: 150%;
+    width: 75%;
   }
   .persona-img {
     padding-bottom: 3rem;
     clear: both;
   }
-  .personaContent h3 {
-    margin-left: 0;
-    margin-bottom: 0;
-    float: left;
+  .grid-container {
+    display: inline;
+    padding: 0px 4rem 0px;
   }
-  .personaContent h4 {
-    margin-left: 0;
-    margin-bottom: .5rem;
-    float: inherit;
-    display: block;
+
+  .personaContent {
+    margin-left: -2rem;
+    margin-right: 5rem;
   }
   .personaContent2 {
-    padding-top: 3rem;
+    padding-right: 6rem;
   }
   .section {
     margin-left: 0;
     display: inline;
   }
+  .personaContent h4 {
+    margin-bottom: 1rem;
+    padding: 0 12rem;
+  }
+  .personaContent h3 {
+    margin-bottom: 1rem;
+    padding: 0 12rem;
+  }
+  .personaContent3 {
+  margin-bottom: 6rem;
+  }
+
   .competitive-column {
-    width: 50%;
-    padding-right: 4rem;
+    width: 35%;
+    padding-right: 10rem;
   }
   .competitive-column img {
-    min-width: 10rem;
-    max-width: 13rem;
+    min-width: 8rem;
+    max-width: 12rem;
     margin: 0;
   }
+  .competitiveAnalysis-text-block2 h3 {
+    margin: 1px;
+  }
+  .competitiveAnalysis-text-block2 p {
+    width: 100%;
+  }
+
   .userFlows-img1, .userFlows-img2 {
     width: 100%;
   }
-  .userFlows, .wireframes, .design {
+  .userFlows {
+    margin:0 5.6rem 45rem 5.6rem;
+  }
+  .flow_button {
+    margin-top: 20rem;
+  }
+  .wireframes, .design {
     margin: 56px 56px 0;
   }
   .aboutProject-image img:nth-child(3), img:nth-child(2) {
@@ -633,9 +657,7 @@ footer p:first-child {
   padding: 1rem;
   display: inline;
 }
-.button {
-  padding-left: 18rem;
-}
+
 .topnav {
   max-height: 8rem;
 }
@@ -645,6 +667,9 @@ footer p:first-child {
       }
 .case_study_title h2 {
   display: none;
+      }
+      .userFlows-img1 img {
+        display: none;
       }
     }
 

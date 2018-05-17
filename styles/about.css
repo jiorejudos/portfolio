@@ -75,8 +75,13 @@ footer p {
 footer {
   margin-top: 1rem;
 }
+}
 
 @media screen and (max-width: 959px) and (min-width: 600px) {
   html {
     font-size: 80%;
   }
+  .aboutheader {
+    margin-left: 5.6rem;
+  }
+}
