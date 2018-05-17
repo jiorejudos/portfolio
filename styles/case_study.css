@@ -31,7 +31,7 @@ html {
 .text p {
   text-align: left;
   float: left;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   margin-top: 0;
@@ -105,7 +105,7 @@ html {
 .userSurvey-text-block, .userSurvey-text-block1 {
   display: block;
   font-family: "Raleway", arial, sans-serif;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   clear: both;
 }
 
@@ -124,7 +124,7 @@ html {
 
 .userSurvey-text-block p {
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   width: 65%;
 }
 
@@ -237,7 +237,7 @@ html {
 .competitiveAnalysis-text-block  {
   display: block;
   font-family: "Raleway", arial, sans-serif;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   clear: both;
 }
 
@@ -253,7 +253,7 @@ html {
 
 .competitiveAnalysis-text-block2 {
   display: block;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
 }
 
@@ -348,7 +348,17 @@ html {
 .wireframes-text p {
   clear: both;
   text-align: left;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.image-text p {
+  clear: both;
+  text-align: left;
+  font-size: 1.6rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
   margin-top: 0;
@@ -389,7 +399,8 @@ input[type=button] {
 }
 
 .button {
-  padding: 2rem 0 0 38rem;
+  padding-left: .3rem;
+  padding-top: 5rem;
 }
 
 .conclusion {
@@ -524,9 +535,7 @@ footer p:nth-child(2){
   .section2 img {
     width: 100%;
   }
-  .button {
-    padding-left: 5rem;
-  }
+
 
 
 footer p:first-child {
