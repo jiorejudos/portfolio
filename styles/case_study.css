@@ -14,7 +14,7 @@ html {
   margin:0 5.6rem 2rem;
 }
 
-.aboutProject-image, .aboutProject-text, .aboutProject-image2 img {
+.aboutProject-image, .aboutProject-text{
   margin-left: 12rem;
 }
 
@@ -38,6 +38,16 @@ html {
   margin-bottom: 2rem;
 }
 
+.case_study_title h3 {
+  text-align: left;
+  float: left;
+  font-size: 2.2rem;
+  color: #458355;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: bold;
+  margin: 62px 62px 0;
+  margin-bottom: 2rem;
+}
 
 .case_study_title h2 {
   text-align: left;
@@ -89,7 +99,7 @@ html {
 
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
 .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before,
-.competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after,
+.competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after, .section2::before, .section2::after,
 .competitiveAnalysis-box::before, .userFlows::after, .userFlows::before, .design::before, .design::after,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before, .userTesting::before, .userTesting::after
 {
@@ -487,7 +497,7 @@ footer p:nth-child(2){
     margin-left: -2rem;
     margin-right: 5rem;
   }
-  .personaContent2 {
+  .personaContent2, .personaContent3 {
     padding-right: 6rem;
   }
   .persona-img {
@@ -551,6 +561,9 @@ footer p:nth-child(2){
   }
   .section2 img {
     width: 100%;
+  }
+  .button {
+    padding-top: 0;
   }
 footer p:first-child {
   visibility: hidden;
@@ -679,7 +692,7 @@ footer p:first-child {
     min-width: 33%;
     flex: 33%;
   }
-.case_study_title h2 {
+.case_study_title h3 {
   display: none;
 }
 }

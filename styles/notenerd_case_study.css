@@ -2,23 +2,12 @@
   width: 70%;
   height: auto;
   display: inline;
+  margin-left: 12rem;
 }
 
-.competitive-column1 {
-  padding-right: 120px;
-  widows: 100%;
-}
-
-.competitive-column1 img {
-  display: block;
-  float: left;
-  align-content: center;
-  max-height: 150px;
-  max-width: 100%;
-  margin: 8px 0px 20px 0;
-  vertical-align: middle;
-  clear: both;
-  padding-bottom: 20px;
+.competitive-column img {
+  min-width: 20rem;
+  max-width: 30rem;
 }
 
 .gallery-column1{
@@ -31,6 +20,7 @@
 .gallery-column1 img {
   max-height: 390px;
   width: auto;
+  margin-bottom: 2rem;
 }
 
 .gallery-column2{
@@ -42,4 +32,30 @@
 
 .gallery-column2 img {
   max-height: 390px;
+  margin-bottom: 2rem;
+}
+
+.userFlows-img2 {
+  padding: 0;
+  margin-top: -8rem;
+  width: 95%;
+}
+
+.userFlows-img2 img {
+  width: 75%
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+.aboutProject-image2 img {
+  margin-left: 6rem;
+}
+.userFlows-img2 {
+  padding-top: 23rem;
+  width: 95%;
+}
+.competitive-column img {
+  min-width: 5rem;
+  max-width: 8rem;
+  margin: 0;
+}
 }

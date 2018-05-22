@@ -2,6 +2,7 @@
   width: 70%;
   height: auto;
   display: inline;
+  margin-left: 12rem;
 }
 
 .competitive-column1 {
@@ -21,15 +22,14 @@
   padding-bottom: 20px;
 }
 
-.userFlows-img1{
-  float: left;
-  display: inline;
-  margin-bottom: 20px;
-  width: 80%;
+.userFlows-img2 {
+  padding: 0;
+  margin-top: -5rem;
+  width: 90%;
 }
 
-.userFlows-img1 img {
-  width: 90%
+.userFlows-img2 img {
+  width: 75%
 }
 
 .gallery-column1{
@@ -42,6 +42,7 @@
 .gallery-column1 img {
   max-height: 390px;
   width: auto;
+  margin-bottom: 2rem;
 }
 
 .gallery-column2{
@@ -53,4 +54,15 @@
 
 .gallery-column2 img {
   max-height: 390px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+.aboutProject-image2 img {
+  margin-left: 6rem;
+}
+.userFlows-img2 {
+  padding-top: 20rem;
+  width: 95%;
+}
 }

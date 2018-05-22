@@ -6,6 +6,7 @@ html {
   width: 70%;
   height: auto;
   display: inline;
+  margin-left: 12rem;
 }
 
 .competitive-column1 {
@@ -46,6 +47,20 @@ html {
 .gallery-column1 img {
   max-height: 39rem;
   width: auto;
+  margin-bottom: 2rem;
+}
+
+.gallery-column3 {
+  float: left;
+  display: inline;
+  margin-bottom: 2rem;
+  width: auto;
+}
+
+.gallery-column3 img {
+  max-height: 35rem;
+  width: auto;
+  margin-bottom: 2rem;
 }
 
 .gallery-column2 {
@@ -57,6 +72,19 @@ html {
 
 .gallery-column2 img {
   max-height: 39rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-column4 {
+  float: right;
+  display: inline;
+  margin-bottom: 2rem;
+  width: auto;
+}
+
+.gallery-column4 img {
+  max-height: 35rem;
+  margin-bottom: 2rem;
 }
 
 .box-white {
@@ -70,3 +98,32 @@ html {
   display: block;
   margin:0 5.6rem 2rem 11.6rem;
 }
+
+.button {
+  padding-top: 0;
+}
+
+.section2 img {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+  .aboutProject-image2 img {
+    margin-left: 6rem;
+  }
+  .design {
+    margin: 0
+  }
+  .button {
+    padding-top: 0;
+  }
+}
+
+  /* medium screen */
+@media screen and (max-width: 959px) and (min-width: 600px) {
+    html {
+      font-size: 80%;
+    }
