@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   overflow-x: hidden;
+  background-size: cover;
 }
 
 * {
@@ -9,7 +10,7 @@ body {
 
 html {
   font-size: 10px;
-  margin: 0px;
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -58,6 +59,7 @@ html {
   float: left;
   top: 0;
   z-index: 2;
+  margin: 0;
 }
 
 .logo h1 {
@@ -65,8 +67,8 @@ html {
   text-align: center;
   color: #3F3250;
   font-family: "Titillium Web", arial, sans-serif;
-  font-size: 160px;
-  top: -180px;
+  font-size: 16rem;
+  top: -18rem;
   left: 8.4rem;
   font-weight: 600;
 }
@@ -87,7 +89,7 @@ html {
 .topnav .nav {
   height: 10rem;
   vertical-align: middle;
-  display: inline-block;
+  display: inline;
   float: right;
   padding-right: 6rem;
 }
@@ -116,37 +118,32 @@ footer {
 
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
-.topnav .nav {
-  float: right;
-  margin-right: 3rem;
-}
-.topnav .nav a:nth-child(1) {
-  display: none;
-}
 .topnav h1 {
     display: none;
     flex-wrap: wrap;
+  }
+  .topnav .nav a {
+    font-size: 1.5rem;
   }
 html {
     font-size: 50%;
   }
   .topnav .nav {
-        float: right;
-        margin-right: 0;
+    float: right;
+    margin-right: 0;
       }
       .logo img {
-        height: 90px;
+        height: 92px;
       }
       .logo h1 {
       left: 8.1rem;
+      font-size: 160px;
+      top: -180px;
     }
 }
 
   /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
-.topnav .nav a:nth-child(1) {
-     display: none;
-    }
 .topnav h1 {
       display: none;
       }

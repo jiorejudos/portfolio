@@ -1,0 +1,15 @@
+.aboutProject-image2 img {
+  width: 70%;
+  height: auto;
+  display: inline;
+  margin-left: 12rem;
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+.aboutProject-image2 img {
+  margin-left: 6rem;
+}
+.aboutProject-image2 img {
+  margin-left: 6rem;
+}
+}
