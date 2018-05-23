@@ -33,6 +33,7 @@
 }
 
 .gallery-column1{
+  margin-top: 1rem;
   float: left;
   display: inline;
   margin-bottom: 20px;
@@ -46,7 +47,8 @@
 }
 
 .gallery-column2{
-  float:right;
+  margin-top: 1rem;
+  float: right;
   display: inline;
   margin-bottom: 20px;
   width: auto;
