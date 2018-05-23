@@ -45,6 +45,10 @@
   width: 75%
 }
 
+.section2 img {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .aboutProject-image2 img {
   margin-left: 6rem;
