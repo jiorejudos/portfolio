@@ -46,6 +46,7 @@ body {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 2rem;
+  margin-right: 5.6rem;
 }
 
 .case_study_title h3 {
@@ -72,7 +73,6 @@ body {
 
 .green h2 {
   text-align: left;
-  float: left;
   font-size: 4.8rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
@@ -112,7 +112,7 @@ body {
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
 .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before,
 .competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after, .section2::before, .section2::after,
-.competitiveAnalysis-box::before, .userFlows::after, .userFlows::before, .design::before, .design::after,
+.competitiveAnalysis-box::before, .design::before, .design::after,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before, .userTesting::before, .userTesting::after
 {
   content: " ";
@@ -130,6 +130,7 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-size: 1.8rem;
   clear: both;
+  margin-right: 5.6rem;
 }
 
 .userSurvey-text-block h3 {
@@ -178,6 +179,30 @@ body {
   grid-template-columns: 325px 325px 430px;
   grid-template-rows: 300px;
   padding: 0px 4rem 0px;
+}
+
+.grid-container2 {
+  display: inline-grid;
+  grid-template-columns: 350px 500px;
+  grid-template-rows: 350px;
+  grid-column-gap: 20px;
+}
+
+.grid-container3 {
+  display: inline-grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px;
+  grid-column-gap: 20px;
+}
+
+
+.wireframe-img1 img{
+  height: 340px;
+  width: auto;
+}
+
+.wireframe-img2 img{
+  height: 340px;
 }
 
 .persona-img {
@@ -251,6 +276,17 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-size: 1.8rem;
   display: inline-block;
+  margin-right: 5.3rem;
+}
+
+.competitive-text p {
+  text-align: left;
+  float: left;
+  font-size: 1.8rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .competitiveAnalysis-text-block2 h3 {
@@ -261,8 +297,8 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: 600;
   margin: 0;
-  width: 15%;
-  margin-right: 5%
+  width: 18%;
+  margin-right: 2%
 }
 
 .competitiveAnalysis-text-block2 p {
@@ -278,17 +314,18 @@ body {
   font-family: "Raleway", arial, sans-serif;
   padding-top: 2rem;
   margin-bottom: -10px;
+  margin-right: 2%
 }
 
 .competitive-row {
   display: flex;
   flex-wrap: nowrap;
-  padding: 0 .4rem;
+  padding: 0 8rem 0 0;
 }
 
 .competitive-column {
-  padding-right: 12rem;
   widows: 100%;
+  padding: 0 8rem 0 0;
 }
 
 .competitive-column img {
@@ -303,43 +340,15 @@ body {
   padding-bottom: 2rem
 }
 
-.userFlows p, .userFlows h2 {
-  position: relative;
-}
-
-.userFlows-img1 {
-  position: absolute;
-  margin-top: -55px;
-  margin-left: 50rem;
-  width: 50%;
-  opacity: .40;
-}
-
-.userFlows-img1 img {
-  width: 70%
-}
-
-.userFlows-img2 {
-  position: absolute;
-  padding-top: 15rem;
-  float: left;
-  width: 50%;
-  opacity: .40;
-}
-
-.userFlows-img2 img {
-  width: 75%
-}
-
-.flow_button {
-  position: absolute;
-  margin-top: 200px;
-  align-items: center;
-}
-
 .userFlows {
-  margin:0 5.6rem 45rem 17.6rem;
+  margin: 0 5.6rem 0 17.6rem;
+}
 
+.image-box {
+  background-image: url("/images/tidbit flow 2.png"), url("/images/tidbit flow 1.png");
+  background-position: 60% 50%, 89% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .wireframes, .design {
@@ -390,18 +399,20 @@ body {
 .gallery img {
   max-width: 75%;
   float: left;
+
 }
 
 .gallery-column {
   flex: 33%;
   max-width: 33%;
+
 }
 
 .gallery-column img {
   margin-top: .8rem;
-  vertical-align: middle;
   width: 100%;
   margin-bottom: 2rem;
+  float: left;
 }
 
 input[type=button] {
@@ -656,6 +667,7 @@ footer p:first-child {
   }
   .competitiveAnalysis-text-block2 h3 {
     margin: 1px;
+    width: auto;
   }
   .competitiveAnalysis-text-block2 p {
     width: 100%;

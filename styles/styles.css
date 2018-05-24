@@ -123,14 +123,14 @@ footer {
     flex-wrap: wrap;
   }
   .topnav .nav a {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 html {
     font-size: 50%;
   }
   .topnav .nav {
-    float: right;
     margin-right: 0;
+    padding-right: 8rem;
       }
       .logo img {
         height: 92px;

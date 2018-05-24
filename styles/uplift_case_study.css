@@ -32,32 +32,6 @@
   width: 75%
 }
 
-.gallery-column1{
-  margin-top: 1rem;
-  float: left;
-  display: inline;
-  margin-bottom: 20px;
-  width: auto;
-}
-
-.gallery-column1 img {
-  max-height: 390px;
-  width: auto;
-  margin-bottom: 2rem;
-}
-
-.gallery-column2{
-  margin-top: 1rem;
-  float: right;
-  display: inline;
-  margin-bottom: 20px;
-  width: auto;
-}
-
-.gallery-column2 img {
-  max-height: 390px;
-  margin-bottom: 2rem;
-}
 
 .section2 img {
   padding-bottom: 0;
