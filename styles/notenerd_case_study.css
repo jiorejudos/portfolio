@@ -5,10 +5,6 @@
   margin-left: 12rem;
 }
 
-.competitive-column img {
-  min-width: 20rem;
-  max-width: 30rem;
-}
 
 .gallery-column1{
   float: left;
@@ -61,5 +57,9 @@
   min-width: 5rem;
   max-width: 8rem;
   margin: 0;
+}
+.userFlows-grid-image1 {
+  display: block;
+  width: 45rem;
 }
 }

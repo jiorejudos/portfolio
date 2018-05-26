@@ -146,10 +146,10 @@ footer p:first-child {
 
   /* medium screen */
   @media screen and (max-width: 959px) and (min-width: 600px) {
-     .column {
-       min-width: 50%;
-       flex: 50%;
-     }
+    .column {
+      min-width: 75%;
+      flex: 100%;
+    }
      .main h2 {
        font-size: 28px;
        padding: 0 56px;

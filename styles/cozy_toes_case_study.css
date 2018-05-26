@@ -99,9 +99,6 @@ html {
   margin:0 5.6rem 2rem 11.6rem;
 }
 
-.button {
-  padding-top: 0;
-}
 
 .section2 img {
   padding-bottom: 0;
@@ -118,7 +115,11 @@ html {
     margin: 0
   }
   .button {
-    padding-top: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .box {
+    padding-bottom: 100px;
   }
 }
 

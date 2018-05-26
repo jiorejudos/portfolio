@@ -176,9 +176,10 @@ body {
 
 .grid-container {
   display: inline-grid;
-  grid-template-columns: 325px 325px 430px;
+  grid-template-columns: 350px 350px 400px;
   grid-template-rows: 300px;
   padding: 0px 4rem 0px;
+  grid-gap: 40px;
 }
 
 .grid-container2 {
@@ -241,7 +242,7 @@ body {
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-left: 6rem;
+  margin-left: 8rem;
 }
 
 .personaContent h4 {
@@ -250,7 +251,7 @@ body {
   color: black;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 200;
-  margin-left: 6rem;
+  margin-left: 8rem;
   margin-top: -4rem;
 }
 
@@ -297,7 +298,7 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: 600;
   margin: 0;
-  width: 18%;
+  width: 15%;
   margin-right: 2%
 }
 
@@ -305,7 +306,7 @@ body {
   display: inline-block;
   font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
-  width: 80%;
+  width: 75%;
 }
 
 .competitiveAnalysis-text-block3 {
@@ -344,11 +345,31 @@ body {
   margin: 0 5.6rem 0 17.6rem;
 }
 
-.image-box {
-  background-image: url("/images/tidbit flow 2.png"), url("/images/tidbit flow 1.png");
-  background-position: 60% 50%, 89% 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
+.userFlows-grid-text {
+  grid-area: left;
+}
+
+.userFlows-grid-image1  {
+  grid-area: right;
+}
+
+.userFlows-grid-image2 {
+  grid-area: bottom;
+}
+
+.userFlows-grid-image1 img {
+  width: 110%;
+  padding-right: 20rem;
+}
+
+.userFlows-grid-image2 img {
+  width: 100%;
+}
+
+.userFlows-grid {
+  display: inline-grid;
+  grid-template-areas: 'left Left right right'
+                        'bottom bottom right right';
 }
 
 .wireframes, .design {
@@ -484,7 +505,7 @@ footer p:nth-child(2){
   .aboutProject-image img, .userFlows-img1, .userFlows-img2 {
     width: 100%;
   }
-  .aboutProject-image, .userFlows, .wireframes, .design {
+  .aboutProject-image, .userFlows, .design {
     margin: 56px 56px 0;
   }
   .aboutProject {
@@ -521,6 +542,7 @@ footer p:nth-child(2){
     display: inline;
     padding: 0px 4rem 0px;
   }
+
   .personaContent {
     margin-left: -2rem;
     margin-right: 5rem;
@@ -564,13 +586,14 @@ footer p:nth-child(2){
     width: 100%;
   }
   .userFlows {
-    margin-bottom: 25rem;
+    margin-bottom: 10rem;
   }
-  .userFlows-img2 img {
-    width: 70%;
-    margin-top: 30px;
+.userFlows-grid {
+    display: inline;
+    padding: 0px 4rem 0px;
   }
-  .userFlows-img1 img {
+
+  .userFlows-grid-image1 {
     display: none;
   }
   .box {
@@ -581,6 +604,27 @@ footer p:nth-child(2){
     margin-right: 0;
     display: inline;
   }
+  .grid-container2 {
+    display: inline-grid;
+    grid-template-columns: 325px;
+    grid-template-rows: 320px 175px;
+  }
+  .grid-container3 {
+    display: inline-grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 240px 240px;
+  }
+  .wireframes {
+    margin: 56px 56px 0;
+    padding-bottom: 40px;
+  }
+  .wireframe-img1 img, .wireframe-img2 img{
+    width: 240px;
+    height: auto;
+  }
+  .section2 img {
+    width: 100%;
+  }
   .gallery-row {
     display:flex;
   }
@@ -588,12 +632,10 @@ footer p:nth-child(2){
     max-width: 125%;
     flex: none;
   }
-  .section2 img {
-    width: 100%;
-  }
   .button {
-    padding-top: 0;
+    padding-top: 30px 0;
   }
+
 footer p:first-child {
   visibility: hidden;
 }
@@ -672,11 +714,16 @@ footer p:first-child {
   .competitiveAnalysis-text-block2 p {
     width: 100%;
   }
-  .userFlows-img1, .userFlows-img2 {
-    width: 100%;
-  }
+  .userFlows-grid {
+      display: inline;
+      padding: 0px 4rem 0px;
+    }
+
+    .userFlows-grid-image1 {
+      display: none;
+    }
   .userFlows {
-    margin:0 5.6rem 45rem 5.6rem;
+    margin:0 5.6rem 10rem 5.6rem;
   }
   .flow_button {
     margin-top: 20rem;
@@ -694,7 +741,7 @@ footer p:first-child {
   display: inline;
 }
 .section2 img {
-  width: 100%;
+  width: 90%;
 }
 .gallery-column img {
   max-width: 150%;
@@ -711,6 +758,13 @@ footer p:first-child {
 .userFlows-img1 img {
   display: none;
     }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .grid-container {
+    grid-template-columns: 325px 300px 300px;
+    grid-gap: 5px;
+  }
 }
 
 @media screen and (min-width: 960px) {

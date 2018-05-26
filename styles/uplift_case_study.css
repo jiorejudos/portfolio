@@ -22,17 +22,6 @@
   padding-bottom: 20px;
 }
 
-.userFlows-img2 {
-  padding: 0;
-  margin-top: -5rem;
-  width: 90%;
-}
-
-.userFlows-img2 img {
-  width: 75%
-}
-
-
 .section2 img {
   padding-bottom: 0;
 }
@@ -44,5 +33,19 @@
 .userFlows-img2 {
   padding-top: 20rem;
   width: 95%;
+}
+.userFlows-grid-image1 {
+  display: block;
+  width: 45rem;
+}
+.grid-container2 {
+  display: inline-grid;
+  grid-template-columns: 325px;
+  grid-template-rows: 420px 175px;
+}
+.grid-container3 {
+  display: inline-grid;
+  grid-template-columns: 275px;
+  grid-template-rows: 280px 240px;
 }
 }
