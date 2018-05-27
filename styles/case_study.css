@@ -189,6 +189,13 @@ body {
   grid-column-gap: 20px;
 }
 
+.grid-container5 {
+  display: inline-grid;
+  grid-template-columns: 350px 500px;
+  grid-template-rows: 350px;
+  grid-column-gap: 20px;
+}
+
 .grid-container3 {
   display: inline-grid;
   grid-template-columns: 500px 500px;
@@ -353,11 +360,20 @@ body {
   grid-area: right;
 }
 
+.userFlows-grid-image3  {
+  grid-area: right;
+}
+
 .userFlows-grid-image2 {
   grid-area: bottom;
 }
 
 .userFlows-grid-image1 img {
+  width: 110%;
+  padding-right: 20rem;
+}
+
+.userFlows-grid-image3 img {
   width: 110%;
   padding-right: 20rem;
 }
@@ -592,9 +608,11 @@ footer p:nth-child(2){
     display: inline;
     padding: 0px 4rem 0px;
   }
-
   .userFlows-grid-image1 {
     display: none;
+  }
+  .userFlows-grid-image3 {
+    width: 150%;
   }
   .box {
   padding: 6rem 5.6rem 6rem 5.6rem;
@@ -609,7 +627,17 @@ footer p:nth-child(2){
     grid-template-columns: 325px;
     grid-template-rows: 320px 175px;
   }
+  .grid-container5 {
+    display: inline-grid;
+    grid-template-columns: 325px;
+    grid-template-rows: 320px 175px;
+  }
   .grid-container3 {
+    display: inline-grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 240px 240px;
+  }
+  .grid-container4 {
     display: inline-grid;
     grid-template-columns: 275px;
     grid-template-rows: 240px 240px;
@@ -665,16 +693,18 @@ footer p:first-child {
   .userPersonas-text-quote {
     padding-left: 0;
   }
-  .persona-img img {
-    width: 75%;
+  .persona-img {
+    width: 75%
   }
   .persona-img {
-    padding-bottom: 3rem;
+    padding-bottom: 0;
     clear: both;
+    align-items: center;
+    margin-left: 50px;
   }
   .grid-container {
     display: inline;
-    padding: 0px 4rem 0px;
+    padding: 0px 6rem 0px;
   }
   .personaContent {
     margin-left: -2rem;
@@ -689,11 +719,11 @@ footer p:first-child {
   }
   .personaContent h4 {
     margin-bottom: 1rem;
-    padding: 0 12rem;
+    padding: 0 6rem;
   }
   .personaContent h3 {
     margin-bottom: 1rem;
-    padding: 0 12rem;
+    padding: 0 6rem;
   }
   .personaContent3 {
   margin-bottom: 6rem;
@@ -712,7 +742,7 @@ footer p:first-child {
     width: auto;
   }
   .competitiveAnalysis-text-block2 p {
-    width: 100%;
+    width: 90%;
   }
   .userFlows-grid {
       display: inline;
@@ -731,6 +761,45 @@ footer p:first-child {
   .wireframes, .design {
     margin: 56px 56px 0;
   }
+  .grid-container2 {
+    display: inline-grid;
+    grid-template-columns: 465px;
+    grid-template-rows: 620px 275px;
+    padding-left: 80px;
+  }
+  .grid-container3 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 440px 540px;
+    padding-left: 80px;
+  }
+  .grid-container4 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 440px 540px;
+    padding-left: 20px;
+  }
+  .grid-container5 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 740px 340px;
+    padding-left: 20px;
+  }
+  .grid-container6 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 540px 540px;
+    padding-left: 20px;
+  }
+  .wireframes {
+    margin: 56px 56px 0;
+    padding-bottom: 40px;
+  }
+  .wireframe-img1 img, .wireframe-img2 img{
+    width: 440px;
+    height: auto;
+  }
+
   .aboutProject-image img:nth-child(3), img:nth-child(2) {
   margin-left: 0;
   width: 100%;
@@ -764,6 +833,40 @@ footer p:first-child {
   .grid-container {
     grid-template-columns: 325px 300px 300px;
     grid-gap: 5px;
+  }
+  .competitive-column {
+    width: 35%;
+    padding-right: 10rem;
+  }
+  .competitive-column img {
+    min-width: 8rem;
+    max-width: 12rem;
+    margin: 0;
+  }
+  .section2 img {
+    width: 90%;
+    height: auto;
+  }
+  .grid-container2 {
+    display: inline-grid;
+    grid-template-columns: 465px;
+    grid-template-rows: 620px 275px;
+    padding-left: 80px;
+  }
+  .grid-container3 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 440px 540px;
+  }
+  .wireframe-img1 img, .wireframe-img2 img{
+    width: 440px;
+    height: auto;
+  }
+  .grid-container4 {
+    display: inline-grid;
+    grid-template-columns: 575px;
+    grid-template-rows: 440px 540px;
+    padding-left: 80px;
   }
 }
 
