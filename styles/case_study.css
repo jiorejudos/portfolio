@@ -179,7 +179,6 @@ body {
   grid-template-columns: 350px 350px 400px;
   grid-template-rows: 300px;
   padding: 0px 4rem 0px;
-  grid-gap: 40px;
 }
 
 .grid-container2 {
@@ -187,6 +186,12 @@ body {
   grid-template-columns: 350px 500px;
   grid-template-rows: 350px;
   grid-column-gap: 20px;
+}
+
+.grid-container4 {
+  display: inline-grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px;
 }
 
 .grid-container5 {
@@ -217,6 +222,15 @@ body {
 }
 
 .wireframe-img2 img{
+  height: 340px;
+}
+
+.wireframe-img3 img{
+  height: 340px;
+  width: auto;
+}
+
+.wireframe-img4 img{
   height: 340px;
 }
 
