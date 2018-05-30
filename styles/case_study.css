@@ -19,45 +19,43 @@ body {
   padding-top: 0;
 }
 
-.aboutProject {
-  display: block;
-  margin:0 5.6rem 2rem;
-}
-
-.aboutProject-image, .aboutProject-text{
-  margin-left: 12rem;
+.aboutProject-image {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .aboutProject-image img {
-  width: 25%;
   height: auto;
-  display: inline;
+  width: 22rem;
+  vertical-align: middle;
 }
 
 .aboutProject-image img:nth-child(3), img:nth-child(2) {
   margin-left: 5rem;
 }
 
-.text p {
+.text {
+  margin: 0 auto;
   text-align: left;
-  float: left;
+  width: 65rem;
+}
+
+.text p {
   font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 2rem;
-  margin-right: 5.6rem;
 }
 
 .case_study_title h3 {
-  text-align: left;
-  float: left;
+  clear: both;
   font-size: 2.2rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin: 62px 62px 0;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .case_study_title h2 {
@@ -97,20 +95,18 @@ body {
 }
 
 .box {
-  background-size: cover;
   background-color: #F6E9D4;
   border-top: .2rem solid #808080;
   border-bottom: .2rem solid #808080;
   box-sizing: cover;
-  padding: 6rem 0 6rem 5.6rem;
   display: block;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  padding: 6rem 0;
   clear: both;
+  margin: 6rem 0;
 }
 
-.aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after,
-.userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before,
+.aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after, .case_study_title::before,
+.userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before, .case_study_title::after,
 .competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after, .section2::before, .section2::after,
 .competitiveAnalysis-box::before, .design::before, .design::after,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before, .userTesting::before, .userTesting::after
@@ -120,17 +116,10 @@ body {
   clear: both;
 }
 
-.userSurvey {
-  margin-left: 12rem;
-  margin-right: 4rem;
-}
 
 .userSurvey-text-block, .userSurvey-text-block1 {
   display: block;
-  font-family: "Raleway", arial, sans-serif;
-  font-size: 1.8rem;
   clear: both;
-  margin-right: 5.6rem;
 }
 
 .userSurvey-text-block h3 {
@@ -142,50 +131,50 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin: 0;
-  width: 30%;
-  margin-right: 5%
+  width: 29%;
+  padding-right: 2rem;
 }
 
 .userSurvey-text-block p {
   display: inline-block;
   font-size: 1.8rem;
-  width: 65%;
+  width: 70%;
 }
 
 .userPersonas {
   display: block;
-  margin-left: 6rem;
-}
-
-.userPersonas-text {
-  display: block;
-  float: left;
-  margin-left: 12rem;
-  margin-right: 5rem;
 }
 
 .userPersonas-text-quote {
-  float: left;
   font-size: 2rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bolder;
-  margin: 2rem 0;
+  margin: 2rem auto;
   color: #3F3250;
   clear: left;
+  text-align: left;
+  width: 65rem;
+}
+
+
+.personaContent2 p {
+  font-size: 1.8rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
 }
 
 .grid-container {
   display: inline-grid;
-  grid-template-columns: 350px 350px 400px;
+  grid-template-columns: 225px 300px 300px;
   grid-template-rows: 300px;
-  padding: 0px 4rem 0px;
+  padding: 0 20rem;
 }
 
 .grid-container2 {
   display: inline-grid;
   grid-template-columns: 350px 500px;
   grid-template-rows: 350px;
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
 }
 
 .grid-container4 {
@@ -236,8 +225,7 @@ body {
 
 .persona-img {
   margin-top: .8rem;
-  width:100%;
-  padding-left: 8rem;
+  width: 100%;
   padding-bottom: 8rem;
 }
 
@@ -308,65 +296,44 @@ body {
   margin-right: 5.3rem;
 }
 
-.competitive-text p {
-  text-align: left;
-  float: left;
-  font-size: 1.8rem;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 2rem;
+.competitiveAnalysis-text-block2 {
+  margin-top: 2rem;
 }
+
 
 .competitiveAnalysis-text-block2 h3 {
   text-align: right;
-  float: left;
   display: inline-block;
   font-size: 2rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 600;
   margin: 0;
-  width: 15%;
-  margin-right: 2%
+  width: 22%;
+  padding-right: 2rem;
 }
 
 .competitiveAnalysis-text-block2 p {
   display: inline-block;
   font-size: 1.8rem;
-  font-family: "Raleway", arial, sans-serif;
-  width: 75%;
+  width: 78%;
 }
 
-.competitiveAnalysis-text-block3 {
-  display: inline-block;
-  font-size: 1.8rem;
-  font-family: "Raleway", arial, sans-serif;
-  padding-top: 2rem;
-  margin-bottom: -10px;
-  margin-right: 2%
+.competitiveAnalysis-image {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.competitive-row {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 0 8rem 0 0;
-}
-
-.competitive-column {
-  widows: 100%;
-  padding: 0 8rem 0 0;
-}
-
-.competitive-column img {
-  display: block;
-  float: left;
-  align-content: center;
-  min-width: 20rem;
-  max-width: 30rem;
-  margin: .8rem 0px 2rem 0;
+.competitiveAnalysis-image img {
+  height: auto;
+  width: 22rem;
   vertical-align: middle;
-  clear: both;
-  padding-bottom: 2rem
+  padding: 4rem 0;
+}
+
+.competitiveAnalysis-image img:nth-child(3), img:nth-child(2) {
+  margin-left: 5rem;
 }
 
 .userFlows {
@@ -878,7 +845,4 @@ footer p:first-child {
     min-width: 33%;
     flex: 33%;
   }
-.case_study_title h3 {
-  display: none;
-}
 }
