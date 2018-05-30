@@ -120,13 +120,12 @@ footer {
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .topnav h1 {
     display: none;
-    flex-wrap: wrap;
   }
   .topnav .nav a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
-html {
-    font-size: 50%;
+  html {
+    font-size: 70%;
   }
   .topnav .nav {
     margin-right: 1rem;

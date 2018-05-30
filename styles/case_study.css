@@ -80,7 +80,6 @@ body {
 
 .purple h2 {
   text-align: left;
-  float: left;
   font-size: 4.8rem;
   color: #3F3250;
   font-family: "Raleway", arial, sans-serif;
@@ -98,7 +97,6 @@ body {
   background-color: #F6E9D4;
   border-top: .2rem solid #808080;
   border-bottom: .2rem solid #808080;
-  box-sizing: cover;
   display: block;
   padding: 6rem 0;
   clear: both;
@@ -108,7 +106,7 @@ body {
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after, .case_study_title::before,
 .userSurvey-box::after, .userSurvey-box::before, .competitiveAnalysis-text-block::before, .case_study_title::after,
 .competitiveAnalysis-text-block::after, .competitiveAnalysis-box::after, .section2::before, .section2::after,
-.competitiveAnalysis-box::before, .design::before, .design::after,
+.competitiveAnalysis-box::before, .design::before, .design::after, .userPersonas-text-quote::before, .userPersonas-text-quote::after,
 .wireframes::after, .wireframes::before, .conclusion::after, .conclusion::before, .userTesting::before, .userTesting::after
 {
   content: " ";
@@ -336,14 +334,6 @@ body {
   margin-left: 5rem;
 }
 
-.userFlows {
-  margin: 0 5.6rem 0 17.6rem;
-}
-
-.userFlows-grid-text {
-  grid-area: left;
-}
-
 .userFlows-grid-image1  {
   grid-area: right;
 }
@@ -357,33 +347,62 @@ body {
 }
 
 .userFlows-grid-image1 img {
-  width: 110%;
-  padding-right: 20rem;
+  width: 100%;
+  margin-top: -5rem;
 }
 
 .userFlows-grid-image3 img {
-  width: 110%;
+  width: 100%;
   padding-right: 20rem;
 }
 
 .userFlows-grid-image2 img {
-  width: 100%;
+  padding-top: 2rem;
+  width: 80%;
 }
 
 .userFlows-grid {
-  display: inline-grid;
-  grid-template-areas: 'left Left right right'
-                        'bottom bottom right right';
+  display: grid;
+  padding: 0 22rem;
+  grid-template-areas: 'bottom bottom right'
+                        'bottom bottom right';
 }
 
 .wireframes, .design {
   display: block;
-  margin:0 5.6rem 2rem 17.6rem;
 }
 
+.gallery-grid {
+  display: inline-grid;
+  margin: 0 15rem;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 525px 4rem;
+}
+
+.grid-text {
+  font-size: 1.8rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: normal;
+}
+
+.gallery-grid img {
+  height: 53rem;
+  width: 30rem;
+  padding: 0;
+  margin: 0;
+}
+
+
 .wireframes-text {
-  margin-bottom: 2rem;
-  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.wireframes-text p {
+  display: inline-block;
+  height: auto;
+  width: 22rem;
 }
 
 .wireframes h2 {
@@ -451,8 +470,15 @@ input[type=button] {
 }
 
 .button {
-  padding-left: .3rem;
-  padding-top: 5rem;
+  display: block;
+  padding-top: 1rem;
+}
+
+.centered-button {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+  padding-top: 2rem;
 }
 
 .conclusion {
@@ -498,77 +524,87 @@ footer p:nth-child(2){
 /* small screen  */
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
-    font-size: 50%;
+    font-size: 65%;
   }
+  .case_study_title h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2rem 0 0 0;
+    width: 30rem;
+  }
+  .green h2, .purple h2{
+    font-size: 3rem;
+}
   .aboutProject-image img:nth-child(3), img:nth-child(2) {
     display: none;
   }
   .aboutProject-image img:nth-child(1) {
   margin-left: 0;
 }
-  .aboutProject-image img, .userFlows-img1, .userFlows-img2 {
-    width: 100%;
-  }
-  .aboutProject-image, .userFlows, .design {
-    margin: 56px 56px 0;
-  }
-  .aboutProject {
-    margin:0
-  }
-  .aboutProject-text {
-    margin: 0 6rem;
+  .text {
+    margin: 0 auto;
+    text-align: left;
+    width: 30rem;
   }
   .workheader {
     visibility: hidden;
     margin: 0;
   }
-  .userSurvey {
-    margin: 0;
-  }
   .userSurvey-text-block h3 {
-    margin: 1px;
+    margin: 0;
   }
   .userSurvey-text-block p {
     width: 100%;
   }
-
   .userSurvey-text-block, .userSurvey-text-block1 {
-    margin-right: 5rem;
+    margin: 0 auto;
+    text-align: left;
+    width: 30rem;
   }
   .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
 .userPersonas-text-quote {
-    padding-left: 0;
-    padding-top: 2rem;
+  margin: auto;
+  text-align: left;
+  width: 30rem;
+  padding-bottom: 1rem;
   }
   .grid-container {
     display: inline;
-    padding: 0px 4rem 0px;
-  }
-
-  .personaContent {
-    margin-left: -2rem;
-    margin-right: 5rem;
-  }
-  .personaContent2, .personaContent3 {
-    padding-right: 6rem;
+    margin: 0 auto;
+    width: 30rem;
+    align-items: center;
   }
   .persona-img {
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   }
   .persona-img img{
   width: 75%
   }
+  .personaContent {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .personaContent2 p {
+    margin: 0 auto;
+    text-align: left;
+    width: 30rem;
+  }
+.personaContent2 {
+  padding-top: 0;
+}
   .personaContent h4 {
     margin-bottom: 1rem;
     clear: both;
   }
   .personaContent h3 {
     margin-bottom: 1rem;
-  }
-  .personaContent3 {
-  margin-bottom: 6rem;
   }
   .section {
     margin-left: 0;
@@ -602,9 +638,6 @@ footer p:nth-child(2){
   .userFlows-grid-image3 {
     width: 150%;
   }
-  .box {
-  padding: 6rem 5.6rem 6rem 5.6rem;
-}
   .section2 {
     margin-left: 0;
     margin-right: 0;
