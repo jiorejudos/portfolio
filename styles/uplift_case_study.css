@@ -88,10 +88,7 @@
   display: block;
   width: 45rem;
 }
-.grid-container {
-  grid-template-columns: 275px 350px 300px;
-  grid-gap: 5px;
-}
+
 .grid-container5 {
   display: inline-grid;
   grid-template-columns: 575px;
