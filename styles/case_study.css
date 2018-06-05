@@ -26,9 +26,22 @@ body {
   text-align: center;
 }
 
+.aboutProject-image2 {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .aboutProject-image img {
   height: auto;
   width: 22rem;
+  vertical-align: middle;
+}
+
+.aboutProject-image2 img {
+  height: auto;
+  width: 65rem;
   vertical-align: middle;
 }
 
@@ -165,41 +178,7 @@ body {
   display: inline-grid;
   grid-template-columns: 225px 300px 300px;
   grid-template-rows: 300px;
-  padding: 0 20rem;
-}
-
-.grid-container2 {
-  display: inline-grid;
-  grid-template-columns: 350px 500px;
-  grid-template-rows: 350px;
-  grid-column-gap: 10px;
-}
-
-.grid-container4 {
-  display: inline-grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 350px;
-}
-
-.grid-container5 {
-  display: inline-grid;
-  grid-template-columns: 350px 500px;
-  grid-template-rows: 350px;
-  grid-column-gap: 20px;
-}
-
-.grid-container6 {
-  display: inline-grid;
-  grid-template-columns: 425px 500px;
-  grid-template-rows: 350px;
-  grid-column-gap: 20px;
-}
-
-.grid-container3 {
-  display: inline-grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 350px;
-  grid-column-gap: 20px;
+  padding: 0 20px;
 }
 
 
@@ -286,7 +265,6 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-size: 1.8rem;
   display: inline-block;
-  margin-right: 5.3rem;
 }
 
 .competitiveAnalysis-text-block2 {
@@ -375,6 +353,14 @@ body {
                         'text1 text2 text3';
 }
 
+.gallery-grid2 {
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
+  grid-template-areas: 'image1 image2'
+                        'text1 text2';
+}
+
 .gallery-image1 {
   grid-area: image1;
 }
@@ -404,6 +390,13 @@ body {
   font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
+}
+
+.gallery-grid2 img {
+  height: 33rem;
+  width: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .gallery-grid img {
@@ -486,7 +479,8 @@ input[type=button] {
 .centered-button {
   display: block;
   margin-left: auto;
-  width: 50%;
+  margin-right: auto;
+  text-align: center;
   padding-top: 2rem;
 }
 
@@ -533,13 +527,12 @@ footer p:nth-child(2){
 /* small screen  */
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
   .case_study_title h3 {
     font-size: 1.8rem;
     text-align: center;
     padding: 2rem 0 0 0;
-    width: 30rem;
   }
   .green h2, .purple h2{
     font-size: 3rem;
@@ -596,9 +589,7 @@ footer p:nth-child(2){
   width: 75%
   }
   .personaContent {
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
   }
   .personaContent2 p {
@@ -618,7 +609,6 @@ footer p:nth-child(2){
     margin-left: 0;
     margin-bottom: 1rem;
   }
-
   .userPersonas-text-quote {
     margin-top: 5rem;
     text-align: center;
@@ -679,7 +669,7 @@ footer p:nth-child(2){
     grid-template-rows: 240px 240px;
   }
   .styleguide img{
-    width: 100%;
+    width: 90%;
   }
   .wireframes {
     margin: 56px 56px 0;
@@ -717,21 +707,19 @@ footer p:nth-child(2){
   width: 100%;
   padding-top: 2rem;
 }
-
 footer p:first-child {
   visibility: hidden;
 }
 }
 
-
 /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
-  .aboutProject-image img:nth-child(3n), .aboutProject-image img:nth-child(2n) {
+  .aboutProject-image img:nth-child(3), .aboutProject-image img:nth-child(2) {
     display: none;
   }
-    html {
-    font-size: 80%;
-  }
+  html {
+  font-size: 100%;
+}
   .case_study_title h3 {
     padding: 2rem 0 0 0;
     text-align: center;
@@ -747,51 +735,67 @@ footer p:first-child {
   .userSurvey, .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
-  .userPersonas-text-quote {
-    padding-left: 0;
+  .userPersonas-text, .conclusion-text {
+    margin-left: 0;
   }
-  .persona-img {
-    width: 75%
-  }
-  .persona-img {
-    padding-bottom: 0;
-    clear: both;
-    align-items: center;
-    margin-left: 50px;
+.userPersonas-text-quote {
+  margin: auto;
+  text-align: left;
+  width: 30rem;
+  padding-bottom: 1rem;
   }
   .grid-container {
-    display: inline;
-    padding: 0px 6rem 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .persona-img {
+  padding: 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+  .persona-img img{
+  width: 50%;
   }
   .personaContent {
-    margin-left: -2rem;
-    margin-right: 5rem;
+    margin: 0 auto;
+    text-align: center;
   }
-  .personaContent2 {
-    padding-right: 6rem;
+  .personaContent2 p {
+    margin: 0 auto;
+    text-align: left;
+    width: 30rem;
+  }
+.personaContent2 {
+  padding-top: 0;
+}
+  .personaContent h4 {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    clear: both;
+  }
+  .personaContent h3 {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .userPersonas-text-quote {
+    margin-top: 5rem;
+    text-align: center;
   }
   .section {
     margin-left: 0;
     display: inline;
   }
-  .personaContent h4 {
-    margin-bottom: 1rem;
-    padding: 0 6rem;
-  }
-  .personaContent h3 {
-    margin-bottom: 1rem;
-    padding: 0 6rem;
-  }
-  .personaContent3 {
-  margin-bottom: 6rem;
-  }
-  .competitiveAnalysis-image {
+  .competitiveAnalysis-image img{
     height: auto;
-    width: 8rem;
+    width: 10rem;
     margin: 0 2rem;
     padding: 0;
   }
-  .competitiveAnalysis-image:nth-child(3), .competitiveAnalysis-image:nth-child(2) {
+  .competitiveAnalysis-image img:nth-child(3), .competitiveAnalysis-image img:nth-child(2) {
     margin-left: 0;
   }
   .competitiveAnalysis-text-block2 h3 {
@@ -808,6 +812,9 @@ footer p:first-child {
     .userFlows-grid-image1 {
       display: none;
     }
+    .userFlows-grid-image2 {
+      margin-left: 3rem;
+    }
   .userFlows {
     margin:0 5.6rem 10rem 5.6rem;
   }
@@ -816,6 +823,9 @@ footer p:first-child {
   }
   .wireframes, .design {
     margin: 56px 56px 0;
+  }
+  .gallery-grid {
+    margin: 0 2rem;
   }
   .grid-container2 {
     display: inline-grid;
@@ -843,10 +853,7 @@ footer p:first-child {
     width: 440px;
     height: auto;
   }
-  .aboutProject-image img:nth-child(3), img:nth-child(2) {
-  margin-left: 0;
-  width: 100%;
-}
+
 .section2 {
   margin-left: 0;
   margin-right: 0;
@@ -874,8 +881,16 @@ footer p:first-child {
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
   .grid-container {
-    grid-template-columns: 325px 300px 300px;
-    grid-gap: 5px;
+    display: inline-grid;
+    grid-template-columns: 200px 280px 300px;
+    grid-template-rows: 300px;
+    padding: 0 10rem;
+  }
+
+  .gallery-grid {
+    margin: 0 5rem;
+    grid-template-areas: 'image1 image2 image3'
+                          'text1 text2 text3';
   }
   .competitive-column {
     width: 35%;
@@ -890,26 +905,9 @@ footer p:first-child {
     width: 90%;
     height: auto;
   }
-  .grid-container2 {
-    display: inline-grid;
-    grid-template-columns: 465px;
-    grid-template-rows: 620px 275px;
-    padding-left: 80px;
-  }
-  .grid-container3 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 440px 540px;
-  }
   .wireframe-img1 img, .wireframe-img2 img{
     width: 440px;
     height: auto;
-  }
-  .grid-container4 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 440px 540px;
-    padding-left: 80px;
   }
 }
 

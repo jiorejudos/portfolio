@@ -2,12 +2,6 @@ html {
   font-size: 10px;
 }
 
-.aboutProject-image2 img {
-  width: 70%;
-  height: auto;
-  display: inline;
-  margin-left: 12rem;
-}
 
 .competitive-column1 {
   padding-right: 120px;
@@ -87,12 +81,6 @@ html {
   margin-bottom: 2rem;
 }
 
-.box-white {
-  padding: 6rem 5.6rem;
-  display: block;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
 
 .design {
   display: block;
