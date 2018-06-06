@@ -1,36 +1,7 @@
-.aboutProject-image2 img {
-  width: 70%;
-  height: auto;
-  display: inline;
-  margin-left: 12rem;
-}
 
-.competitive-column1 {
-  padding-right: 120px;
-  widows: 100%;
-}
-
-.competitive-column1 img {
-  display: block;
-  float: left;
-  align-content: center;
-  max-height: 150px;
-  max-width: 100%;
-  margin: 8px 0px 20px 0;
-  vertical-align: middle;
-  clear: both;
-  padding-bottom: 20px;
-}
-
-.section2 img {
-  padding-bottom: 0;
-}
 
 /* small screen  */
 @media screen and (max-width: 599px) and (min-width: 320px) {
-.aboutProject-image2 img {
-  margin-left: 6rem;
-}
 .userFlows-img2 {
   padding-top: 20rem;
   width: 95%;
@@ -39,45 +10,9 @@
   display: block;
   width: 45rem;
 }
-.grid-container3 {
-  display: inline-grid;
-  grid-template-columns: 275px;
-  grid-template-rows: 280px 240px;
-}
-.wireframe-img3 img, .wireframe-img4 img{
-  width: 225px;
-  height: auto;
-}
-.grid-container5 {
-  display: inline-grid;
-  grid-template-columns: 325px;
-  grid-template-rows: 400px 175px;
-}
-.grid-container6 {
-  display: inline-grid;
-  grid-template-columns: 575px;
-  grid-template-rows: 280px 280px;
-}
+
 }
 
-
-/* medium screen */
-@media screen and (max-width: 959px) and (min-width: 600px) {
-  .wireframe-img3 img, .wireframe-img4 img{
-    width: 400px;
-    height: auto;
-  }
-  .grid-container5 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 740px 340px;
-  }
-  .grid-container6 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 480px 480px;
-  }
-}
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
 .userFlows-img2 {
@@ -88,26 +23,10 @@
   display: block;
   width: 45rem;
 }
-
-.grid-container5 {
+.grid-container {
   display: inline-grid;
-  grid-template-columns: 575px;
-  grid-template-rows: 740px 340px;
-  padding-left: 80px;
-}
-.grid-container3 {
-  display: inline-grid;
-  grid-template-columns: 275px;
-  grid-template-rows: 280px 240px;
-}
-.wireframe-img3 img, .wireframe-img4 img{
-  width: 425px;
-  height: auto;
-}
-.grid-container6 {
-  display: inline-grid;
-  grid-template-columns: 575px;
-  grid-template-rows: 440px 440px;
-  padding-left: 80px;
+  grid-template-columns: 190px 340px 300px;
+  grid-template-rows: 300px;
+  padding: 0 10rem;
 }
 }

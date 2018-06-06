@@ -6,12 +6,6 @@ body {
   background-size: cover;
 }
 
-.container {
-  background-color: white;
-  margin: 0 auto;
-  width: 100%;
-}
-
 .workheader {
   position: relative;
   border-top: .1rem solid #3F3250;
@@ -178,26 +172,7 @@ body {
   display: inline-grid;
   grid-template-columns: 225px 300px 300px;
   grid-template-rows: 300px;
-  padding: 0 20px;
-}
-
-
-.wireframe-img1 img{
-  height: 340px;
-  width: auto;
-}
-
-.wireframe-img2 img{
-  height: 340px;
-}
-
-.wireframe-img3 img{
-  height: 340px;
-  width: auto;
-}
-
-.wireframe-img4 img{
-  height: 340px;
+  padding: 0 25rem;
 }
 
 .persona-img {
@@ -216,18 +191,6 @@ body {
     padding-top: 4rem;
 }
 
-.personaContent3 {
-    font-family: "Raleway", arial, sans-serif;
-    float: right;
-    padding-top: 4rem;
-}
-
-.userPersonas-img {
-  display: block;
-  float: left;
-  margin-left: 12rem;
-  margin-bottom: 2rem;
-}
 
 .personaContent h3 {
   float: left;
@@ -246,19 +209,6 @@ body {
   font-weight: 200;
   margin-left: 8rem;
   margin-top: -4rem;
-}
-
-
-.section2 {
-  margin-left: 12rem;
-  margin-right: 40px;
-  padding: 0 .4rem;
-  display: inline-block;
-}
-
-.section2 img {
-  padding-top: 1rem;
-  padding-bottom: 5rem;
 }
 
 .competitiveAnalysis-text-block  {
@@ -326,7 +276,6 @@ body {
 
 .userFlows-grid-image3 img {
   width: 100%;
-  padding-right: 20rem;
 }
 
 .userFlows-grid-image2 img {
@@ -341,10 +290,6 @@ body {
                         'bottom bottom right';
 }
 
-.wireframes, .design {
-  display: block;
-}
-
 .gallery-grid {
   display: grid;
   margin: 0 15rem;
@@ -355,6 +300,8 @@ body {
 
 .gallery-grid2 {
   display: grid;
+  justify-content: center;
+  grid-column-gap: 2rem;
   margin: 0 auto;
   text-align: center;
   grid-template-areas: 'image1 image2'
@@ -406,48 +353,6 @@ body {
   margin: 0;
 }
 
-
-.wireframes-text {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.wireframes-text p {
-  display: inline-block;
-  height: auto;
-  width: 22rem;
-}
-
-.wireframes h2 {
-  text-align: left;
-  font-size: 4.8rem;
-  color: #458355;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.wireframes-text p {
-  clear: both;
-  text-align: left;
-  font-size: 1.8rem;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 2rem;
-}
-
-.image-text p {
-  clear: both;
-  text-align: left;
-  font-size: 1.6rem;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 2rem;
-}
-
 .styleguide {
   padding: 0;
   margin-left: auto;
@@ -484,18 +389,6 @@ input[type=button] {
   padding-top: 2rem;
 }
 
-.conclusion {
-  display: block;
-  margin:0 5.6rem 2rem;
-}
-
-.conclusion-text {
-  display: block;
-  float: left;
-  margin-left: 12rem;
-  margin-bottom: 2rem;
-}
-
 footer p:first-child {
     font-family: "Raleway", arial, sans-serif;
     color: #fdfdfd;
@@ -529,6 +422,9 @@ footer p:nth-child(2){
   html {
     font-size: 60%;
   }
+  .aboutProject-image2 img{
+    width: 80%;
+  }
   .case_study_title h3 {
     font-size: 1.8rem;
     text-align: center;
@@ -561,7 +457,6 @@ footer p:nth-child(2){
   .userSurvey-text-block, .userSurvey-text-block1 {
     margin: 0 auto;
     text-align: left;
-    width: 30rem;
   }
   .userPersonas-text, .conclusion-text {
     margin-left: 0;
@@ -606,16 +501,11 @@ footer p:nth-child(2){
     clear: both;
   }
   .personaContent h3 {
-    margin-left: 0;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem;
   }
   .userPersonas-text-quote {
     margin-top: 5rem;
     text-align: center;
-  }
-  .section {
-    margin-left: 0;
-    display: inline;
   }
   .competitiveAnalysis-image img {
     height: auto;
@@ -646,41 +536,11 @@ footer p:nth-child(2){
     margin-left: 3rem;
   }
   .userFlows-grid-image3 {
-    width: 150%;
-  }
-  .section2 {
-    margin-left: 0;
-    margin-right: 0;
-    display: inline;
-  }
-  .grid-container2 {
-    display: inline-grid;
-    grid-template-columns: 325px;
-    grid-template-rows: 320px 175px;
-  }
-  .grid-container3 {
-    display: inline-grid;
-    grid-template-columns: 275px;
-    grid-template-rows: 240px 240px;
-  }
-  .grid-container4 {
-    display: inline-grid;
-    grid-template-columns: 275px;
-    grid-template-rows: 240px 240px;
+    width: 90%;
+    padding: 0 2rem;
   }
   .styleguide img{
     width: 90%;
-  }
-  .wireframes {
-    margin: 56px 56px 0;
-    padding-bottom: 40px;
-  }
-  .wireframe-img1 img, .wireframe-img2 img{
-    width: 240px;
-    height: auto;
-  }
-  .section2 img {
-    width: 100%;
   }
 .gallery-grid {
   display: grid;
@@ -701,6 +561,13 @@ footer p:nth-child(2){
   width: 22rem;
   vertical-align: middle;
 }
+.gallery-grid2 {
+  padding: 2rem;
+}
+.gallery-grid2 img{
+  height: 12rem;
+  width: auto;
+}
 .centered-button {
   display: block;
   text-align: center;
@@ -719,6 +586,9 @@ footer p:first-child {
   }
   html {
   font-size: 100%;
+}
+.aboutProject-image2 img{
+  width: 80%;
 }
   .case_study_title h3 {
     padding: 2rem 0 0 0;
@@ -778,16 +648,11 @@ footer p:first-child {
     clear: both;
   }
   .personaContent h3 {
-    margin-left: 0;
-    margin-bottom: 1rem;
+    margin: 6rem 0 1rem;
   }
   .userPersonas-text-quote {
     margin-top: 5rem;
     text-align: center;
-  }
-  .section {
-    margin-left: 0;
-    display: inline;
   }
   .competitiveAnalysis-image img{
     height: auto;
@@ -808,74 +673,41 @@ footer p:first-child {
       display: inline;
       padding: 0px 4rem 0px;
     }
-
     .userFlows-grid-image1 {
       display: none;
     }
     .userFlows-grid-image2 {
       margin-left: 3rem;
     }
+    .userFlows-grid-image3 {
+      width: 90%;
+      padding: 0 2rem;
+    }
   .userFlows {
     margin:0 5.6rem 10rem 5.6rem;
   }
-  .flow_button {
-    margin-top: 20rem;
-  }
-  .wireframes, .design {
-    margin: 56px 56px 0;
+  .styleguide img {
+    width: 90%;
   }
   .gallery-grid {
     margin: 0 2rem;
   }
-  .grid-container2 {
-    display: inline-grid;
-    grid-template-columns: 465px;
-    grid-template-rows: 620px 275px;
-    padding-left: 80px;
-  }
-  .grid-container3 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 440px 540px;
-    padding-left: 80px;
-  }
-  .grid-container4 {
-    display: inline-grid;
-    grid-template-columns: 575px;
-    grid-template-rows: 440px 540px;
-    padding-left: 20px;
-  }
-  .wireframes {
-    margin: 56px 56px 0;
-    padding-bottom: 40px;
-  }
-  .wireframe-img1 img, .wireframe-img2 img{
-    width: 440px;
+  .gallery-image1 img, .gallery-image2 img, .gallery-image3 img{
+    width: 12rem;
     height: auto;
   }
-
-.section2 {
-  margin-left: 0;
-  margin-right: 0;
-  display: inline;
-}
-.section2 img {
-  width: 90%;
-}
-.gallery-column img {
-  max-width: 150%;
-  padding: 1rem;
-  display: inline;
-}
-.topnav {
-  max-height: 8rem;
-}
-.topnav h1 {
-  display: none;
-  flex-wrap: wrap;
+  .gallery-grid2 {
+    padding: 2rem;
+  }
+  .gallery-grid2 img{
+    height: 19rem;
+    width: auto;
   }
 .userFlows-img1 img {
   display: none;
+    }
+    footer p:first-child {
+      visibility: hidden;
     }
 }
 
@@ -886,34 +718,9 @@ footer p:first-child {
     grid-template-rows: 300px;
     padding: 0 10rem;
   }
-
   .gallery-grid {
     margin: 0 5rem;
     grid-template-areas: 'image1 image2 image3'
                           'text1 text2 text3';
-  }
-  .competitive-column {
-    width: 35%;
-    padding-right: 10rem;
-  }
-  .competitive-column img {
-    min-width: 8rem;
-    max-width: 12rem;
-    margin: 0;
-  }
-  .section2 img {
-    width: 90%;
-    height: auto;
-  }
-  .wireframe-img1 img, .wireframe-img2 img{
-    width: 440px;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  .column {
-    min-width: 33%;
-    flex: 33%;
   }
 }

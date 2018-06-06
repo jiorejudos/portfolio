@@ -2,24 +2,6 @@ html {
   font-size: 10px;
 }
 
-
-.competitive-column1 {
-  padding-right: 120px;
-  widows: 100%;
-}
-
-.competitive-column1 img {
-  display: block;
-  float: left;
-  align-content: center;
-  max-height: 150px;
-  max-width: 100%;
-  margin: 8px 0px 20px 0;
-  vertical-align: middle;
-  clear: both;
-  padding-bottom: 20px;
-}
-
 .userFlows-img1{
   float: left;
   display: inline;
@@ -31,80 +13,9 @@ html {
   width: 90%
 }
 
-.gallery-column1 {
-  float: left;
-  display: inline;
-  margin-bottom: 2rem;
-  width: auto;
-}
-
-.gallery-column1 img {
-  max-height: 39rem;
-  width: auto;
-  margin-bottom: 2rem;
-}
-
-.gallery-column3 {
-  float: left;
-  display: inline;
-  margin-bottom: 2rem;
-  width: auto;
-}
-
-.gallery-column3 img {
-  max-height: 35rem;
-  width: auto;
-  margin-bottom: 2rem;
-}
-
-.gallery-column2 {
-  float: right;
-  display: inline;
-  margin-bottom: 2rem;
-  width: auto;
-}
-
-.gallery-column2 img {
-  max-height: 39rem;
-  margin-bottom: 2rem;
-}
-
-.gallery-column4 {
-  float: right;
-  display: inline;
-  margin-bottom: 2rem;
-  width: auto;
-}
-
-.gallery-column4 img {
-  max-height: 35rem;
-  margin-bottom: 2rem;
-}
-
-
-.design {
-  display: block;
-  margin:0 5.6rem 2rem 11.6rem;
-}
-
-
-.section2 img {
-  padding-bottom: 0;
-}
-
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
     font-size: 50%;
-  }
-  .aboutProject-image2 img {
-    margin-left: 6rem;
-  }
-  .design {
-    margin: 0
-  }
-  .button {
-    padding-top: 70px;
-    padding-bottom: 40px;
   }
   .box {
     padding-bottom: 100px;

@@ -14,12 +14,6 @@ html {
   overflow-x: hidden;
 }
 
-.container {
-  background-color: white;
-  margin: 0 auto;
-  width: 100%;
-}
-
 .topnav h1 {
   position: relative;
   vertical-align: middle;
@@ -121,8 +115,12 @@ footer {
 .topnav h1 {
     display: none;
   }
+  .topnav {
+    height: 8rem;
+  }
   .topnav .nav a {
     font-size: 1.2rem;
+    padding: 0 1rem 0;
   }
   html {
     font-size: 70%;
@@ -135,9 +133,17 @@ footer {
         height: 92px;
       }
       .logo h1 {
-      left: 8.1rem;
+      left: 7.2rem;
       font-size: 160px;
       top: -180px;
+    }
+    .logo img {
+      height: 8.1rem;
+      width: auto;
+    }
+    .workheader img{
+      visibility: hidden;
+      margin-bottom: -5rem;
     }
 }
 
@@ -150,9 +156,23 @@ html {
         font-size: 80%;
       }
 .topnav {
-        max-height: 8rem;
+        max-height: 7.8rem;
       }
       .logo h1 {
-      left: 7.8rem;
+      left: 7.2rem;
+    }
+    .logo img {
+      height: 8rem;
+      width: auto;
     }
     }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .logo img {
+    height: 10.1rem;
+    width: auto;
+  }
+  .logo h1 {
+  left: 8rem;
+}
+}
