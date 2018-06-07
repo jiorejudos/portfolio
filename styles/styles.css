@@ -12,6 +12,7 @@ html {
   font-size: 10px;
   margin: 0;
   overflow-x: hidden;
+  font-family: "Raleway", arial, sans-serif;
 }
 
 .topnav h1 {
@@ -80,28 +81,6 @@ html {
     z-index: 1;
 }
 
-.topnav .nav {
-  height: 10rem;
-  vertical-align: middle;
-  display: inline;
-  float: right;
-  padding-right: 6rem;
-}
-
-.topnav .nav a {
-    float: right;
-    vertical-align: middle;
-    color: #fdfdfd;
-    text-align: center;
-    padding: 0 1.6rem;
-    text-decoration: none;
-    font-size: 1.7rem;
-    font-family: "Raleway", arial, sans-serif;
-    height: 10rem;
-    line-height: 10rem;
-    white-space: nowrap;
-}
-
 footer {
     background-color: #3F3250;
     height: 10rem;
@@ -110,25 +89,107 @@ footer {
     margin-top: 7.5rem;
 }
 
+.fa {
+  color: #fff;
+  font-size: 3rem;
+}
+
+nav {
+  height: 10rem;
+  vertical-align: middle;
+  display: inline;
+  float: right;
+  padding-right: 6rem;
+  margin: 1rem 2rem;
+}
+
+nav div {
+  margin: 1rem 2rem;
+  float: right;
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: none;
+}
+
+li {
+  display: none;
+  width: 100%;
+}
+
+@media all and (min-width: 32rem) {
+  nav div {
+    display: none;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+  li {
+    display: block;
+    list-style: none;
+    width: 100%;
+  }
+}
+
+nav ul li a {
+  float: right;
+  display: block;
+  vertical-align: middle;
+  color: #fdfdfd;
+  text-align: center;
+  padding: 0 1.6rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: "Raleway", arial, sans-serif;
+  height: 10rem;
+  line-height: 10rem;
+  white-space: nowrap;
+  transition: background-color 0.4s ease;
+}
+
+nav ul li a.active {
+  background-color: #FFBD66;
+}
+
+section {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 35rem 0;
+  text-align: center;
+}
+
+section.work   { background-color: #aaa; }
+section.about   { background-color: #ccc; }
+section.contact   { background-color: #bbb; }
+
+.visible {
+  display: block;
+  transform: scale(1);
+  transition: flex 0.3s ease-out;
+  z-index: 1;
+}
+
+.mobile {
+  padding: .5rem 0;
+  z-index: 2;
+}
+
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .topnav h1 {
     display: none;
   }
-  .topnav {
-    height: 8rem;
-  }
-  .topnav .nav a {
-    font-size: 1.2rem;
-    padding: 0 1rem 0;
-  }
   html {
     font-size: 70%;
   }
-  .topnav .nav {
-    margin-right: 1rem;
-    padding-right: 0;
-      }
       .logo img {
         height: 92px;
       }
