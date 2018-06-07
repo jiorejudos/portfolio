@@ -95,9 +95,11 @@ footer {
 }
 
 nav {
-  width: 100%;
-  text-align: center;
-  position: fixed;
+  height: 10rem;
+  vertical-align: middle;
+  display: inline;
+  float: right;
+  padding-right: 6rem;
 }
 
 nav div {
@@ -137,17 +139,12 @@ li {
 }
 
 nav ul li a {
-  float: right;
   display: block;
-  vertical-align: middle;
   color: #fdfdfd;
-  text-align: center;
-  padding: 0 1.6rem;
   text-decoration: none;
   font-size: 1.7rem;
-  font-family: "Raleway", arial, sans-serif;
-  height: 10rem;
   line-height: 10rem;
+  padding: 0 1.6rem;
   white-space: nowrap;
   transition: background-color 0.4s ease;
 }
@@ -162,7 +159,6 @@ section {
   padding: 35rem 0;
   text-align: center;
 }
-
 
 
 .visible {
@@ -185,6 +181,12 @@ section {
   }
   html {
     font-size: 70%;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: black;
   }
       .logo img {
         height: 92px;
