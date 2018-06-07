@@ -63,7 +63,7 @@ html {
   color: #3F3250;
   font-family: "Titillium Web", arial, sans-serif;
   font-size: 16rem;
-  top: -18rem;
+  top: -3rem;
   left: 8.4rem;
   font-weight: 600;
 }
@@ -95,12 +95,9 @@ footer {
 }
 
 nav {
-  height: 10rem;
-  vertical-align: middle;
-  display: inline;
-  float: right;
-  padding-right: 6rem;
-  margin: 1rem 2rem;
+  width: 100%;
+  text-align: center;
+  position: fixed;
 }
 
 nav div {
@@ -166,15 +163,14 @@ section {
   text-align: center;
 }
 
-section.work   { background-color: #aaa; }
-section.about   { background-color: #ccc; }
-section.contact   { background-color: #bbb; }
+
 
 .visible {
   display: block;
   transform: scale(1);
   transition: flex 0.3s ease-out;
   z-index: 1;
+  background-color: black;
 }
 
 .mobile {
@@ -196,7 +192,6 @@ section.contact   { background-color: #bbb; }
       .logo h1 {
       left: 7.2rem;
       font-size: 160px;
-      top: -180px;
     }
     .logo img {
       height: 8.1rem;
