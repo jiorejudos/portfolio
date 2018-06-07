@@ -7,12 +7,6 @@ html {
   margin: 0 5.6rem;
 }
 
-.container {
-  background-color: white;
-  margin: 0 auto;
-  width: 100%
-}
-
 .main-container {
   border-bottom: 1px solid #3F3250;
   padding: 0;
@@ -81,13 +75,15 @@ p {
 
 .content{
     font-family: "Raleway", arial, sans-serif;
-
 }
 
 .content h3 {
     color: #3F3250;
-    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Titillium Web", arial, sans-serif;
+    font-size: 2rem;
     margin-top: 1rem;
+    padding: 0 0 2rem;
 }
 
 footer p:first-child {

@@ -55,16 +55,6 @@ body {
   font-weight: normal;
 }
 
-.case_study_title h3 {
-  clear: both;
-  font-size: 2.2rem;
-  color: #458355;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
 .case_study_title h2 {
   text-align: left;
   float: left;
@@ -100,14 +90,20 @@ body {
   box-shadow: 0 0 .3rem .1rem #808080;
 }
 
+section {
+  padding: 6rem 0;
+}
+
+.top {
+  padding-bottom: 6rem
+}
+
 .box {
   background-color: #F6E9D4;
   border-top: .2rem solid #808080;
   border-bottom: .2rem solid #808080;
   display: block;
-  padding: 6rem 0;
   clear: both;
-  margin: 6rem 0;
 }
 
 .aboutProject::before, .aboutProject::after, .aboutProject-line::before, .aboutProject-line::after, .case_study_title::before,
@@ -159,6 +155,7 @@ body {
   clear: left;
   text-align: left;
   width: 65rem;
+  padding-top: 3rem;
 }
 
 
@@ -166,12 +163,13 @@ body {
   font-size: 1.8rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
+  text-align: left;
 }
 
 .grid-container {
   display: inline-grid;
   grid-template-columns: 225px 300px 300px;
-  grid-template-rows: 300px;
+  grid-template-rows: 250px;
   padding: 0 25rem;
 }
 
@@ -188,7 +186,7 @@ body {
 .personaContent2 {
     font-family: "Raleway", arial, sans-serif;
     float: right;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 
@@ -199,6 +197,8 @@ body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin-left: 8rem;
+  padding: 1rem 0;
+  padding-top: 6rem;
 }
 
 .personaContent h4 {
@@ -209,6 +209,7 @@ body {
   font-weight: 200;
   margin-left: 8rem;
   margin-top: -4rem;
+  padding: 1rem 0;
 }
 
 .competitiveAnalysis-text-block  {
@@ -301,7 +302,7 @@ body {
 .gallery-grid2 {
   display: grid;
   justify-content: center;
-  grid-column-gap: 2rem;
+  grid-column-gap: 6rem;
   margin: 0 auto;
   text-align: center;
   grid-template-areas: 'image1 image2'
@@ -347,8 +348,7 @@ body {
 }
 
 .gallery-grid img {
-  height: 53rem;
-  width: 30rem;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
