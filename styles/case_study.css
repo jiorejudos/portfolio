@@ -8,13 +8,13 @@ body {
 
 .workheader {
   position: relative;
-  border-top: .1rem solid #3F3250;
-  margin: 18rem 5.6rem -7rem;
+  margin: 18rem 5.6rem -18rem;
   padding-top: 0;
 }
 
 .aboutProject-image {
   padding: 0;
+  padding-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -22,6 +22,7 @@ body {
 
 .aboutProject-image2 {
   padding: 0;
+  padding-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -203,6 +204,7 @@ section {
 
 .personaContent h4 {
   float: left;
+  text-align: left;
   font-size: 3rem;
   color: black;
   font-family: "Raleway", arial, sans-serif;
@@ -293,10 +295,12 @@ section {
 
 .gallery-grid {
   display: grid;
+  padding-top: 4rem;
   margin: 0 15rem;
-  grid-column-gap: 1rem;
+  grid-column-gap: 4rem;
   grid-template-areas: 'image1 image2 image3'
                         'text1 text2 text3';
+  grid-template-columns: 320px 320px 320px;
 }
 
 .gallery-grid2 {
@@ -349,6 +353,7 @@ section {
 
 .gallery-grid img {
   width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -361,6 +366,7 @@ section {
 }
 
 .styleguide img {
+  padding-top: 4rem;
   height: auto;
   vertical-align: middle;
 }
@@ -720,6 +726,7 @@ footer p:first-child {
   }
   .gallery-grid {
     margin: 0 5rem;
+    grid-template-columns: 360px 360px 360px;
     grid-template-areas: 'image1 image2 image3'
                           'text1 text2 text3';
   }
