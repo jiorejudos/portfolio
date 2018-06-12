@@ -124,6 +124,10 @@ section {
   clear: both;
 }
 
+.userSurvey-text-block1 {
+  padding-bottom: 2rem;
+}
+
 .userSurvey-text-block h3 {
   text-align: right;
   float: left;
@@ -135,12 +139,15 @@ section {
   margin: 0;
   width: 29%;
   padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-top: -1rem;
 }
 
 .userSurvey-text-block p {
   display: inline-block;
   font-size: 1.8rem;
   width: 70%;
+  padding-bottom: 2rem;
 }
 
 .userPersonas {
@@ -222,6 +229,7 @@ section {
 
 .competitiveAnalysis-text-block2 {
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -234,6 +242,7 @@ section {
   margin: 0;
   width: 22%;
   padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 
 .competitiveAnalysis-text-block2 p {
@@ -306,6 +315,7 @@ section {
 .gallery-grid2 {
   display: grid;
   justify-content: center;
+  padding-top: 4rem;
   grid-column-gap: 6rem;
   margin: 0 auto;
   text-align: center;
@@ -431,11 +441,6 @@ footer p:nth-child(2){
   .aboutProject-image2 img{
     width: 80%;
   }
-  .case_study_title h3 {
-    font-size: 1.8rem;
-    text-align: center;
-    padding: 2rem 0 0 0;
-  }
   .green h2, .purple h2{
     font-size: 3rem;
 }
@@ -487,7 +492,8 @@ footer p:nth-child(2){
   text-align: center;
   }
   .persona-img img{
-  width: 75%
+  width: 75%;
+  padding-top: 2rem;
   }
   .personaContent {
     margin: 0 auto;
@@ -510,7 +516,7 @@ footer p:nth-child(2){
     margin: 0 0 1rem;
   }
   .userPersonas-text-quote {
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center;
   }
   .competitiveAnalysis-image img {
@@ -521,12 +527,15 @@ footer p:nth-child(2){
   }
   .competitiveAnalysis-image img:nth-child(3), img:nth-child(2) {
     margin-left: 0;
+    padding-top: 2rem;
   }
   .competitiveAnalysis-text-block2 h3 {
     margin: 1px;
+    padding-bottom: 0
   }
   .competitiveAnalysis-text-block2 p {
     width: 100%;
+    padding-bottom: 1rem;
   }
   .userFlows {
     margin-bottom: 10rem;
@@ -563,12 +572,15 @@ footer p:nth-child(2){
   text-align: center;
 }
 .gallery-grid img {
+  padding-top: 2rem;
+  padding-bottom: .5rem;
   height: auto;
   width: 22rem;
   vertical-align: middle;
 }
 .gallery-grid2 {
   padding: 2rem;
+  grid-column-gap: 2rem;
 }
 .gallery-grid2 img{
   height: 12rem;
@@ -587,18 +599,21 @@ footer p:first-child {
 
 /* medium screen */
 @media screen and (max-width: 959px) and (min-width: 600px) {
+  .workheader {
+    visibility: hidden;
+    margin: 0;
+  }
   .aboutProject-image img:nth-child(3), .aboutProject-image img:nth-child(2) {
     display: none;
+  }
+  .aboutProject-image img {
+    padding-top: 3rem;
   }
   html {
   font-size: 100%;
 }
 .aboutProject-image2 img{
   width: 80%;
-}
-  .case_study_title h3 {
-    padding: 2rem 0 0 0;
-    text-align: center;
 }
 .text {
   margin: 0 auto;
@@ -650,14 +665,13 @@ footer p:first-child {
 }
   .personaContent h4 {
     margin-left: 0;
-    margin-bottom: 1rem;
     clear: both;
   }
   .personaContent h3 {
-    margin: 6rem 0 1rem;
+    margin: 6rem 0 0;
   }
   .userPersonas-text-quote {
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center;
   }
   .competitiveAnalysis-image img{
@@ -665,15 +679,21 @@ footer p:first-child {
     width: 10rem;
     margin: 0 2rem;
     padding: 0;
+    padding-top: 2rem;
+
   }
   .competitiveAnalysis-image img:nth-child(3), .competitiveAnalysis-image img:nth-child(2) {
     margin-left: 0;
+    padding-top: 2rem;
   }
   .competitiveAnalysis-text-block2 h3 {
     margin: 1px;
+    padding-bottom: 0;
+    width: 0;
   }
   .competitiveAnalysis-text-block2 p {
     width: 100%;
+    padding-bottom: 1rem;
   }
   .userFlows-grid {
       display: inline;
@@ -699,7 +719,7 @@ footer p:first-child {
     margin: 0 2rem;
   }
   .gallery-image1 img, .gallery-image2 img, .gallery-image3 img{
-    width: 12rem;
+    width: 18rem;
     height: auto;
   }
   .gallery-grid2 {
@@ -708,6 +728,9 @@ footer p:first-child {
   .gallery-grid2 img{
     height: 19rem;
     width: auto;
+  }
+  .gallery-grid2 {
+    grid-column-gap: 3rem;
   }
 .userFlows-img1 img {
   display: none;
@@ -718,6 +741,9 @@ footer p:first-child {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
+.text p {
+  font-size: 100%;
+}
   .grid-container {
     display: inline-grid;
     grid-template-columns: 200px 280px 300px;
@@ -726,8 +752,11 @@ footer p:first-child {
   }
   .gallery-grid {
     margin: 0 5rem;
-    grid-template-columns: 360px 360px 360px;
+    grid-column-gap: 0;
     grid-template-areas: 'image1 image2 image3'
                           'text1 text2 text3';
+  }
+  .gallery-grid img {
+    width: 75%;
   }
 }

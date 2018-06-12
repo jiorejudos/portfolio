@@ -1,5 +1,4 @@
 
-
 /* small screen  */
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .userFlows-img2 {
@@ -10,9 +9,18 @@
   display: block;
   width: 45rem;
 }
-
 }
 
+
+/* medium screen */
+@media screen and (max-width: 959px) and (min-width: 600px) {
+  .gallery-grid2 img {
+    height: 18rem;
+  }
+  .gallery-grid2 {
+    grid-column-gap: 2rem;
+  }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
 .userFlows-img2 {
