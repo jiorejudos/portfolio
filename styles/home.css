@@ -158,10 +158,6 @@ footer p:first-child {
      .main-container img {
        width: auto;
      }
-     .topnav h1 {
-       font-size: 24px;
-       flex-wrap: wrap;
-     }
      html {
        font-size: 80%;
      }
