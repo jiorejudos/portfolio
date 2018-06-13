@@ -15,7 +15,7 @@ html {
   font-family: "Raleway", arial, sans-serif;
 }
 
-.topnav h1 {
+.container-fluid h1 {
   position: relative;
   vertical-align: middle;
   display: inline;
@@ -26,6 +26,97 @@ html {
   color: #fdfdfd;
   font-family: "Titillium Web", arial, sans-serif;
 }
+
+.navBar {
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+
+.navBar-nav {
+  display: none;
+}
+
+nav-burger {
+  width: 25px;
+  height: 16px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.nav-burger span {
+  display: inline-block;
+  position: absolute;
+  height: .1em;
+  width: 100%;
+  background: white;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.nav-burger span:nth-child(1) {
+  top: 0px;
+}
+
+.nav-burger span:nth-child(2),#nav-burger span:nth-child(3) {
+  top: 8px;
+}
+
+.nav-burger span:nth-child(4) {
+  top: 16px;
+}
+
+.nav-burger.open span:nth-child(1) {
+  top: 8px;
+  width: 0%;
+  left: 50%;
+}
+
+.nav-burger.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-burger.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.nav-burger.open span:nth-child(4) {
+  top: 8px;
+  width: 0%;
+  left: 50%;
+}
+
+a {
+  color: white;
+}
+
+.navPad:hover, #navBar-brand:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a.navPad {
+    margin-left: 20px;
+}
+
 
 .topnav .nav a:hover {
     color: #FFBD66;
@@ -68,7 +159,7 @@ html {
   font-weight: 600;
 }
 
-.topnav {
+.navBar {
     display: inline-block;
     background-color: #3F3250;
     overflow: hidden;
@@ -94,65 +185,9 @@ footer {
   font-size: 3rem;
 }
 
-nav {
-  height: 10rem;
-  vertical-align: middle;
-  display: inline;
-  float: right;
-  padding-right: 6rem;
-}
 
-nav div {
-  margin: 1rem 2rem;
-  float: right;
-  position: fixed;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-ul {
-  display: none;
-}
-
-li {
-  display: none;
-  width: 100%;
-}
 
 @media all and (min-width: 32rem) {
-  nav div {
-    display: none;
-  }
-  nav ul {
-    flex-direction: row;
-  }
-  li {
-    display: block;
-    list-style: none;
-    width: 100%;
-  }
-}
-
-nav ul li a {
-  display: block;
-  color: #fdfdfd;
-  text-decoration: none;
-  font-size: 1.7rem;
-  line-height: 10rem;
-  padding: 0 1.6rem;
-  white-space: nowrap;
-  transition: background-color 0.4s ease;
-}
-
-nav ul li a.active {
-  background-color: #FFBD66;
-}
-
 section {
   font-size: 2rem;
   font-weight: 900;
@@ -161,24 +196,21 @@ section {
 }
 
 
-.visible {
-  display: block;
-  transform: scale(1);
-  transition: flex 0.3s ease-out;
-  z-index: 1;
-  background-color: black;
-}
-
-.mobile {
-  padding: .5rem 0;
-  z-index: 2;
-}
-
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
 .topnav h1 {
     display: none;
   }
+  .navBar {
+   font-family: 'Overpass Mono';
+   font-size: 1.25em;
+   padding-top: 17px;
+ }
+
+ .navBar-nav {
+   display: inline-block;
+   padding-right: 25px;
+ }
   html {
     font-size: 70%;
   }
@@ -210,6 +242,9 @@ section {
 .topnav h1 {
       display: none;
       }
+      .nav-burger {
+display: none;
+}
 html {
         font-size: 80%;
       }
@@ -232,5 +267,9 @@ html {
   }
   .logo h1 {
   left: 8rem;
+}
+.navBar {
+  font-size: 1.45em;
+  padding: 25px 25px 0 0;
 }
 }
