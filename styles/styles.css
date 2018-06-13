@@ -68,20 +68,19 @@ html {
 }
 
 .topnav {
+    height: 10rem;
     display: inline-block;
     background-color: #3F3250;
     overflow: hidden;
     right: 0;
     top: 0;
     left: 0;
-    height: 10rem;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
 .topnav .nav {
-  height: 10rem;
   vertical-align: middle;
   display: inline;
   float: right;
@@ -106,6 +105,7 @@ html {
   display: none;
 }
 
+
 footer {
     background-color: #3F3250;
     height: 10rem;
@@ -121,8 +121,12 @@ footer {
   }
   .burger {
   display: inline-block;
+  float: right;
 }
-nav ul, nav li a {
+.burger:hover {
+  cursor: pointer;
+}
+.nav a {
   display: none;
 }
   .topnav {
@@ -165,8 +169,11 @@ nav ul, nav li a {
       .burger {
   display: inline-block;
 }
-nav ul, nav li a {
+.nav a {
   display: none;
+}
+.burger:hover {
+  cursor: pointer;
 }
 html {
         font-size: 80%;
