@@ -52,6 +52,7 @@ body {
 
 .text p {
   font-size: 1.8rem;
+  line-height: 2.3rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: normal;
 }
@@ -132,12 +133,12 @@ section {
   text-align: right;
   float: left;
   display: inline-block;
-  font-size: 7.2rem;
+  font-size: 8.2rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
   margin: 0;
-  width: 29%;
+  width: 35%;
   padding-right: 2rem;
   padding-bottom: 2rem;
   margin-top: -1rem;
@@ -146,7 +147,7 @@ section {
 .userSurvey-text-block p {
   display: inline-block;
   font-size: 1.8rem;
-  width: 70%;
+  width: 65%;
   padding-bottom: 2rem;
 }
 
@@ -154,18 +155,23 @@ section {
   display: block;
 }
 
+.userPersonas-text {
+  padding-bottom: 3rem;
+}
+
 .userPersonas-text-quote {
   font-size: 2rem;
+  line-height: 2.3rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bolder;
-  margin: 2rem auto;
   color: #3F3250;
   clear: left;
   text-align: left;
-  width: 65rem;
-  padding-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  grid-column: 2 / span 2;
+  grid-row: 2;
 }
-
 
 .personaContent2 p {
   font-size: 1.8rem;
@@ -175,49 +181,58 @@ section {
 }
 
 .grid-container {
-  display: inline-grid;
-  grid-template-columns: 225px 300px 300px;
-  grid-template-rows: 250px;
-  padding: 0 25rem;
+  display: grid;
+  width: 75%;
+  margin: auto;
+  align-self: center;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 .persona-img {
+  grid-column: 1;
+  grid-row: 1 / span 2;
   margin-top: .8rem;
-  width: 100%;
   padding-bottom: 8rem;
+}
+
+.persona-img img {
+  width: 20rem;
 }
 
 .personaContent {
     font-family: "Raleway", arial, sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
 }
 
 .personaContent2 {
     font-family: "Raleway", arial, sans-serif;
     float: right;
-    padding-top: 6rem;
+    padding-top: 3rem;
+    grid-column: 3;
+    grid-row: 1;
+    margin: auto;
 }
 
 
 .personaContent h3 {
-  float: left;
-  font-size: 4rem;
+  text-align: left;
+  font-size: 2.5rem;
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  margin-left: 8rem;
   padding: 1rem 0;
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 .personaContent h4 {
-  float: left;
   text-align: left;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 200;
-  margin-left: 8rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
   padding: 1rem 0;
 }
 
@@ -228,27 +243,23 @@ section {
 }
 
 .competitiveAnalysis-text-block2 {
-  margin-top: 2rem;
-  padding-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
 }
 
-
 .competitiveAnalysis-text-block2 h3 {
-  text-align: right;
-  display: inline-block;
+  margin-right: 10px;
   font-size: 2rem;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 600;
-  margin: 0;
-  width: 22%;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
+  width: 20%;
+  text-align: right;
 }
 
 .competitiveAnalysis-text-block2 p {
-  display: inline-block;
-  font-size: 1.8rem;
-  width: 78%;
+  width: 70%;
+  padding-left: 2rem;
 }
 
 .competitiveAnalysis-image {
@@ -474,62 +485,65 @@ footer p:nth-child(2){
   .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
-.userPersonas-text-quote {
-  margin: auto;
-  text-align: left;
-  width: 30rem;
-  padding-bottom: 1rem;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    align-items: center;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+      padding: 0;
+    }
+    .userPersonas-text {
+      padding-bottom: 0;
+    }
+    .persona-img {
     padding: 0;
-  }
-  .persona-img {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  }
-  .persona-img img{
-  width: 75%;
-  padding-top: 2rem;
-  }
-  .personaContent {
-    margin: 0 auto;
+    margin-top: -1rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+    }
+    .personaContent {
+      margin: 0 auto;
+      text-align: center;
+      grid-column: 1;
+      grid-row: 3;
+    }
+    .personaContent2 p {
+      margin: 0 auto;
+      padding: 1rem 0 2rem;
+      text-align: left;
+      width: 30rem;
+    }
+  .personaContent2 {
+    padding-top: 0;
+    grid-column: 1;
+    grid-row: 4;
   }
-  .personaContent2 p {
-    margin: 0 auto;
-    text-align: left;
-    width: 30rem;
-  }
-.personaContent2 {
-  padding-top: 0;
-}
-  .personaContent h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-    clear: both;
-  }
-  .personaContent h3 {
-    margin: 0 0 1rem;
-  }
-  .userPersonas-text-quote {
-    margin-top: 2rem;
-    text-align: center;
-  }
+    .personaContent h4 {
+      margin-left: 0;
+      clear: both;
+    }
+    .userPersonas-text-quote {
+      text-align: center;
+      grid-column: 1;
+      grid-row: 1;
+    }
   .competitiveAnalysis-image img {
     height: auto;
     width: 8rem;
     margin: 0 2rem;
     padding: 0;
+    padding-bottom: 1rem;
   }
   .competitiveAnalysis-image img:nth-child(3), img:nth-child(2) {
     margin-left: 0;
     padding-top: 2rem;
+  }
+  .competitiveAnalysis-text-block2 {
+    display: block;
+    padding: 0;
   }
   .competitiveAnalysis-text-block2 h3 {
     margin: 1px;
@@ -538,6 +552,7 @@ footer p:nth-child(2){
   .competitiveAnalysis-text-block2 p {
     width: 100%;
     padding-bottom: 1rem;
+    padding-left: 0;
   }
   .userFlows {
     margin-bottom: 10rem;
@@ -633,12 +648,6 @@ footer p:first-child {
   .userPersonas-text, .conclusion-text {
     margin-left: 0;
   }
-.userPersonas-text-quote {
-  margin: auto;
-  text-align: left;
-  width: 30rem;
-  padding-bottom: 1rem;
-  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -647,36 +656,38 @@ footer p:first-child {
   }
   .persona-img {
   padding: 0;
-  margin-top: 0;
+  margin-top: -1rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  }
-  .persona-img img{
-  width: 50%;
+  grid-column: 1;
+  grid-row: 2;
   }
   .personaContent {
     margin: 0 auto;
     text-align: center;
+    grid-column: 1;
+    grid-row: 3;
   }
   .personaContent2 p {
     margin: 0 auto;
+    padding: 1rem 0 2rem;
     text-align: left;
     width: 30rem;
   }
 .personaContent2 {
   padding-top: 0;
+  grid-column: 1;
+  grid-row: 4;
 }
   .personaContent h4 {
     margin-left: 0;
     clear: both;
   }
-  .personaContent h3 {
-    margin: 6rem 0 0;
-  }
   .userPersonas-text-quote {
-    margin-top: 2rem;
     text-align: center;
+    grid-column: 1;
+    grid-row: 1;
   }
   .competitiveAnalysis-image img{
     height: auto;
@@ -684,12 +695,17 @@ footer p:first-child {
     margin: 0 2rem;
     padding: 0;
     padding-top: 2rem;
-
+    padding-bottom: 2rem;
   }
   .competitiveAnalysis-image img:nth-child(3), .competitiveAnalysis-image img:nth-child(2) {
     margin-left: 0;
     padding-top: 2rem;
   }
+
+.competitiveAnalysis-text-block2 {
+  display: block;
+  padding: 0;
+}
   .competitiveAnalysis-text-block2 h3 {
     margin: 1px;
     padding-bottom: 0;
@@ -698,6 +714,7 @@ footer p:first-child {
   .competitiveAnalysis-text-block2 p {
     width: 100%;
     padding-bottom: 1rem;
+    padding-left: 0;
   }
   .userFlows-grid {
       display: inline;
@@ -748,12 +765,6 @@ footer p:first-child {
 .text p {
   font-size: 100%;
 }
-  .grid-container {
-    display: inline-grid;
-    grid-template-columns: 200px 280px 300px;
-    grid-template-rows: 300px;
-    padding: 0 10rem;
-  }
   .gallery-grid {
     margin-left: auto;
     margin-right: auto;
