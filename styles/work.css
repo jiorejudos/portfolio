@@ -5,3 +5,17 @@
   padding-top: 0;
   padding-bottom: 10rem;
 }
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+.workheader {
+  visibility: hidden;
+  margin: -1rem;
+}
+}
+
+@media screen and (max-width: 959px) and (min-width: 600px) {
+  .workheader {
+    visibility: hidden;
+      margin: -1rem;
+  }
+}

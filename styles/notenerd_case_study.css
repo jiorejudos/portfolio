@@ -31,10 +31,6 @@
     height: 15rem;
     width: auto;
   }
-  .userFlows-grid-image3 img {
-    width: 90%;
-    padding: 0 4rem;
-  }
   }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
