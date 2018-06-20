@@ -290,6 +290,8 @@ section {
 
 .userFlows-grid-image2 {
   grid-area: bottom;
+  margin: auto;
+  width: 50%;
 }
 
 .userFlows-grid-image1 img {
@@ -303,7 +305,6 @@ section {
 
 .userFlows-grid-image2 img {
   padding-top: 2rem;
-  width: 80%;
 }
 
 .userFlows-grid {
@@ -416,6 +417,10 @@ input[type=button] {
   margin-right: auto;
   text-align: center;
   padding-top: 2rem;
+}
+
+.conclusion p {
+  padding-bottom: 1rem;
 }
 
 footer p:first-child {
@@ -567,6 +572,9 @@ footer p:nth-child(2){
   .userFlows-grid-image2 {
     margin-left: 3rem;
   }
+  .userFlows-grid-image2 img{
+    width: 120%;
+  }
   .userFlows-grid-image3 {
     width: 90%;
     padding: 0 2rem;
@@ -581,14 +589,13 @@ footer p:nth-child(2){
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
   grid-template-areas: 'image1'
                         'text1'
                         'image2'
                         'text2'
                         'image3'
                         'text3';
-  text-align: center;
 }
 .gallery-grid img {
   padding-top: 2rem;
