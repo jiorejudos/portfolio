@@ -1,6 +1,5 @@
 .aboutheader{
   position: relative;
-  border-top: 1px solid #3F3250;
   margin: 180px 56px -70px;
   padding-top: 0;
 }
@@ -20,6 +19,7 @@
   display: inline-block;
   width: calc(75% - 177px);
   float: left;
+  margin-top: -5rem;
   margin-left: 137px;
   margin-right: 40px;
 }
@@ -37,6 +37,7 @@
   display: inline-block;
   float: left;
   height: 498px;
+  margin-top: -5rem;
   width: 25%;
 }
 .headshot img {
@@ -56,9 +57,10 @@ footer p {
     font-weight: bold;
 }
 
+
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
   .aboutheader {
     visibility: hidden;
@@ -79,9 +81,24 @@ footer {
 
 @media screen and (max-width: 959px) and (min-width: 600px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
+  }
+  .aboutheader {
+    margin-left: 2.6rem;
+  }
+  .aboutBio-text, .headshot {
+  margin-top: -4rem;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .main {
+    padding-top: 5rem;
   }
   .aboutheader {
     margin-left: 5.6rem;
+  }
+  .aboutBio-text p{
+    margin-left: 2rem;
   }
 }
