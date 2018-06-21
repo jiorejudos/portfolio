@@ -221,8 +221,8 @@ section {
   color: #458355;
   font-family: "Raleway", arial, sans-serif;
   font-weight: bold;
-  padding: 1rem 0;
-  padding-top: 3rem;
+  padding: .5rem 0;
+  padding-top: 1rem;
 }
 
 .personaContent h4, .personaContent-mobile h4, .personaContent-normal h4 {
@@ -231,7 +231,7 @@ section {
   color: black;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 200;
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 .competitiveAnalysis-text-block  {
@@ -784,7 +784,7 @@ footer p:first-child {
   }
   .gallery-grid {
     width: 75%;
-  }
+  } 
 }
 
 @media screen and (min-width: 1024px) {
@@ -793,5 +793,8 @@ footer p:first-child {
   }
   .personaContent-mobile{
     display: none
+  }
+  .personaContent h3, .personaContent-mobile h3, .personaContent-normal h3 {
+    padding-top: 3rem;
   }
 }
