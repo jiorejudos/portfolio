@@ -125,8 +125,9 @@ footer p:nth-child(2){
     min-width: 100%;
     flex: 100%;
   }
+  }
   .main h2 {
-    margin-top: 3.8rem;
+    margin-top: 5.8rem;
     font-size: 38px;
     padding: 0 56px;
   }
@@ -145,6 +146,9 @@ padding-right: 0
 }
 footer p:first-child {
   visibility: hidden;
+}
+footer p:first-child(2) {
+  align-items: center;
 }
 }
 

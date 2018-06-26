@@ -450,7 +450,7 @@ footer p:nth-child(2){
 /* small screen  */
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   .aboutProject-image2 img{
     width: 80%;
@@ -784,7 +784,7 @@ footer p:first-child {
   }
   .gallery-grid {
     width: 75%;
-  } 
+  }
 }
 
 @media screen and (min-width: 1024px) {
