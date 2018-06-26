@@ -91,7 +91,7 @@ footer p {
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
   html {
-    font-size: 50%;
+    font-size: 70%;
   }
   .contactheader {
     visibility: hidden;
@@ -108,7 +108,9 @@ footer p {
   .contactInfo form {
     margin-left: -1rem
   }
-
+label {
+  font-size: 1.4rem;
+}
 footer {
   margin-top: 1rem;
 }

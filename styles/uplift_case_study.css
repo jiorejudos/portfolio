@@ -31,10 +31,4 @@
   display: block;
   width: 45rem;
 }
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: 190px 340px 300px;
-  grid-template-rows: 300px;
-  padding: 0 10rem;
-}
 }

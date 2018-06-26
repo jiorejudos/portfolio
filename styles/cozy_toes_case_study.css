@@ -14,17 +14,7 @@ html {
 }
 
 @media screen and (max-width: 599px) and (min-width: 320px) {
-  html {
-    font-size: 50%;
-  }
   .box {
     padding-bottom: 100px;
   }
 }
-
-  /* medium screen */
-@media screen and (max-width: 959px) and (min-width: 600px) {
-    html {
-      font-size: 80%;
-    }
-  }
