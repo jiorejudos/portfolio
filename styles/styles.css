@@ -196,6 +196,7 @@ footer {
       left: 3.6rem;
       font-size: 160px;
       top: -30px;
+      height: 8rem;
     }
     .logo img {
       height: 8.1rem;
@@ -232,9 +233,10 @@ html {
       }
       .logo h1 {
       left: 3.5rem;
+      height: 8rem;
     }
     .logo img {
-      height: 8rem;
+      height: 7.9rem;
       width: auto;
     }
     .mobile-text{
@@ -242,22 +244,34 @@ html {
     }
     }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px){
-  .logo img {
-    height: 10.1rem;
-    width: auto;
+@media screen and (min-width: 600px){
+  .mobile-text{
+    display: none;
   }
+    }
+
+@media screen and (min-width: 950px) and (max-width: 1000px){
+      .logo h1 {
+      height: 9rem;
+    }
+    }
+
+@media screen and (min-width: 1000px){
   .logo h1 {
-  left: 8rem;
-}
-.mobile-text{
-  display: none;
+  height: 8rem;
 }
 }
 
+
 @media screen and (min-width: 1024px) {
-  .mobile-text{
-    display: none;
+  .topnav {
+    height: 8.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .topnav {
+    height: 9rem;
   }
 }
 
