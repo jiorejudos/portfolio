@@ -250,11 +250,6 @@ html {
   }
     }
 
-@media screen and (min-width: 950px) and (max-width: 1000px){
-      .logo h1 {
-      height: 9rem;
-    }
-    }
 
 @media screen and (min-width: 1000px){
   .logo h1 {
@@ -263,17 +258,6 @@ html {
 }
 
 
-@media screen and (min-width: 1024px) {
-  .topnav {
-    height: 8.5rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .topnav {
-    height: 9rem;
-  }
-}
 
 @media all and (min-width: 32rem) {
 section {
