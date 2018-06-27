@@ -1,4 +1,4 @@
-.aboutheader{
+.aboutheader {
   position: relative;
   margin: 180px 56px -70px;
   padding-top: 0;
@@ -7,8 +7,9 @@
 .aboutBio {
   display: block;
   clear: both;
-  margin:0 56px;
+  margin: 0 56px;
 }
+
 .aboutBio:after, .aboutBio:before {
   content: "";
   display: table;
@@ -23,6 +24,7 @@
   margin-left: 137px;
   margin-right: 40px;
 }
+
 .aboutBio-text p {
   text-align: left;
   float: left;
@@ -40,6 +42,8 @@
   margin-top: -5rem;
   width: 25%;
 }
+
+
 .headshot img {
   width: 100%;
 }
@@ -69,10 +73,14 @@ footer p {
   .aboutBio-text {
     margin-left: 0;
     margin-top: 2rem;
-    width: 100%
+    width: 100%;
+  }
+  .aboutBio {
+    margin: 0 24px;
   }
 .headshot {
-  width: 100%
+  margin-top: 2rem;
+  width: 100%;
 }
 footer {
   margin-top: 1rem;
