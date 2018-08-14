@@ -15,7 +15,7 @@ html {
 }
 
 .main-container img{
-  opacity: .8;
+  opacity: .7;
   width: 100%;
   margin-bottom: -.5rem;
 }
@@ -173,8 +173,10 @@ footer p:first-child(2) {
     visibility: hidden;
   }
   .main-container img {
-    width: 100%;
-    height: 42rem;
+    width: auto;
+    height: 45rem;
+    position: relative;
+    right: 700px;
   }
   .main-text, .mobile-text {
     padding-top: 0
@@ -188,6 +190,6 @@ footer p:first-child(2) {
   }
   .main-container img {
     width: 100%;
-    height: 45rem;
+    height: auto;
   }
 }
