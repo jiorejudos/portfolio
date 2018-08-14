@@ -142,7 +142,7 @@ footer p:nth-child(2){
     width: auto;
     height: 42rem;
     position: relative;
-    right: 900px;
+    right: 925px;
   }
 .topnav .nav {
 padding-right: 0
@@ -188,6 +188,6 @@ footer p:first-child(2) {
   }
   .main-container img {
     width: 100%;
-    height: 42rem;
+    height: 45rem;
   }
 }
